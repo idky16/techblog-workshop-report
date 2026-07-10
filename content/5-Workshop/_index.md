@@ -1,36 +1,40 @@
 ---
-title: "Workshop"
-date: 2024-01-01
+title: "Deploy TechBlog on AWS"
+date: 2026-07-10
 weight: 5
 chapter: false
 pre: " <b> 5. </b> "
 ---
-# Secure Hybrid Access to S3 Using VPC Endpoints
 
-#### Overview
+## Overview
 
-This personal technical project designs and validates a secure hybrid access pattern for Amazon S3. The goal is to let workloads in an AWS VPC and a simulated on-premises network access S3 privately, without routing storage traffic through the public Internet.
+This workshop deploys **TechBlog**, a Java 17 and Spring Boot 3.5 technology blog using Spring MVC, Spring Security, JPA/Hibernate, Thymeleaf, MySQL, and Maven.
 
-The project is built as an end-to-end workshop with architecture explanation, hands-on deployment steps, validation, security controls, cost notes, and clean-up instructions. It uses more than three AWS services, including Amazon S3, Amazon VPC, VPC Endpoints, Amazon EC2, AWS Systems Manager, AWS Transit Gateway, AWS Site-to-Site VPN, Route 53 Resolver, IAM, CloudFormation, and CloudWatch.
+The architecture follows Section 2: CloudFront and AWS WAF expose the application, Amazon EC2 runs the Spring Boot JAR, Amazon RDS for MySQL stores business data, and Amazon S3 stores avatars and post images. IAM, Secrets Manager or Parameter Store, CloudWatch, SNS, and AWS Budgets provide security, monitoring, and cost control.
 
-Two S3 access patterns are implemented and compared:
-+ **Gateway endpoint** - Routes S3 traffic from resources inside the VPC through a private route-table target.
-+ **Interface endpoint** - Extends private S3 access to the simulated on-premises network through PrivateLink DNS resolution.
+The cost-focused demo excludes NAT Gateway, Application Load Balancer, Auto Scaling, and RDS Multi-AZ.
 
-#### Project requirements mapping
+## Architecture
 
-+ **Real AWS use-case:** private storage access for hybrid workloads.
-+ **Architecture:** two VPCs, S3 endpoints, VPN simulation, DNS forwarding, endpoint policy, and test instances.
-+ **Implementation:** CloudFormation provisioning plus manual verification steps.
-+ **Testing and measurement:** S3 access tests, DNS checks, Systems Manager sessions, VPC endpoint status, CloudWatch logs/metrics review, and expected results.
-+ **Optimization:** least-privilege IAM, endpoint policy restriction, private routing, cost-aware clean-up, and removal of unused resources.
-+ **Personal contribution:** endpoint policy hardening, validation checklist, and reflection on production improvements.
+```mermaid
+flowchart LR
+    U[Reader / Writer / Admin] -->|HTTPS| F[CloudFront + AWS WAF]
+    F --> E[Amazon EC2<br/>Spring Boot MVC]
+    E -->|JDBC 3306| R[(Amazon RDS for MySQL)]
+    E -->|IAM Role + AWS SDK| S[(Amazon S3<br/>avatars/ and posts/)]
+    P[Secrets Manager or SSM] --> E
+    E --> C[Amazon CloudWatch]
+    C --> A[CloudWatch Alarm]
+    A --> N[Amazon SNS]
+    B[AWS Budgets] --> N
+```
 
-#### Content
+## Contents
 
-1. [Workshop overview](5.1-Workshop-overview)
-2. [Prerequisite](5.2-Prerequiste/)
-3. [Access S3 from VPC](5.3-S3-vpc/)
-4. [Access S3 from On-premises](5.4-S3-onprem/)
-5. [VPC Endpoint Policies (Bonus)](5.5-Policy/)
-6. [Clean up](5.6-Cleanup/)
+1. [Workshop overview](5.1-workshop-overview/)
+2. [Prerequisites](5.2-prerequisites/)
+3. [Network and Amazon RDS](5.3-network-rds/)
+4. [Deploy TechBlog on Amazon EC2](5.4-deploy-ec2/)
+5. [Integrate S3, IAM, CloudFront, and WAF](5.5-storage-security/)
+6. [Test, monitor, and troubleshoot](5.6-test-monitor/)
+7. [Clean up resources](5.7-cleanup/)
