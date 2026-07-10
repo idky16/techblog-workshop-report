@@ -1,4 +1,4 @@
-baseURL = "http://localhost:1313/"
+baseURL = "https://tens8804.github.io/tienaws04/"
 relativeURLs = false
 canonifyURLs = false
 defaultContentLanguage = "en"
