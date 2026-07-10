@@ -50,15 +50,13 @@ flowchart LR
     C --> A[CloudWatch Alarm]
     A --> N[Amazon SNS<br/>Email notification]
     B[AWS Budgets] -->|Cost alert| N
-    H[Hugo workshop report] -->|Static website| RS[(S3 report bucket)]
-    RS --> RC[CloudFront report distribution]
 ```
 
 The target production/demo flow is **User → CloudFront + AWS WAF → EC2 Spring Boot → RDS MySQL + S3**. During initial connectivity testing, the group may temporarily access the EC2 public IP on port 8080 before placing CloudFront and WAF in front of it.
 
 The RDS security group accepts MySQL port 3306 only from the EC2 security group. The upload bucket keeps Block Public Access enabled unless a separate object-delivery design is introduced. Database credentials do not belong in the repository.
 
-The Hugo report is a separate static website that can be published through S3 and CloudFront. GitHub remains useful for source control, but GitHub Pages is not the proposed final AWS hosting path for the report.
+The Hugo report is a separate static website that continues to use GitHub Pages for source-controlled publishing. Moving the report to S3 and CloudFront is an optional future enhancement outside the TechBlog deployment workshop.
 
 ## AWS services
 
@@ -89,7 +87,8 @@ Amplify Hosting is not the main platform because TechBlog has no separate SPA fr
 9. Run with `DB_URL`, `DB_USERNAME`, `DB_PASSWORD`, `AWS_REGION`, and `S3_BUCKET`.
 10. Test business workflows and confirm records in RDS and objects in S3.
 11. Configure CloudWatch Logs, alarms, and an SNS email subscription.
-12. Configure CloudFront and WAF, repeat end-to-end tests, collect evidence, and clean up unused resources.
+12. Configure CloudFront, AWS WAF, and rate-based rules for sensitive workflows; repeat end-to-end tests through CloudFront.
+13. Collect evidence and clean up unused resources.
 
 Hibernate `ddl-auto=update` is acceptable for the demo. A longer-lived environment should use Flyway or Liquibase for versioned schema migration.
 
@@ -103,7 +102,7 @@ The demo uses one primary AWS account for centralized resource and budget manage
 |---|---|
 | Member 1 – AWS Deployment Lead | Create Budgets, S3, RDS, and EC2; configure variables; run TechBlog on AWS. |
 | Member 2 – Application & Database | Test locally, configure the database, test all roles, and validate RDS data. |
-| Member 3 – Storage & Security | Test uploads, S3, IAM, secret storage, and proposed WAF rules. |
+| Member 3 – Storage & Security | Test uploads, S3, IAM, secret storage, and configure WAF rules. |
 | Member 4 – Monitoring & Documentation | Configure CloudWatch/SNS and maintain cleanup, diagrams, and workshop documentation. |
 
 ## Timeline and milestones
@@ -153,4 +152,4 @@ Exact cost depends on Region, instance types, runtime, storage, data transfer, a
 
 ## Future development
 
-After the CloudFront/WAF demo is stable, the group can add a custom domain and ACM certificate. If traffic grows, it can introduce an ALB, private application subnets, Auto Scaling, and RDS Multi-AZ. Other improvements include CI/CD, Flyway or Liquibase, backup-recovery tests, S3 lifecycle policies, and a disaster-recovery procedure. Each addition should provide operational value that justifies its cost.
+After the CloudFront/WAF demo is stable, the group can add a custom domain and ACM certificate. If traffic grows, it can introduce an ALB, private application subnets, Auto Scaling, and RDS Multi-AZ. Other improvements include CI/CD, Flyway or Liquibase, backup-recovery tests, S3 lifecycle policies, a disaster-recovery procedure, and optionally moving the Hugo report from GitHub Pages to S3 and CloudFront. Each addition should provide operational value that justifies its cost.

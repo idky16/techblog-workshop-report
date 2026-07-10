@@ -7,7 +7,7 @@ pre: " <b> 5.2. </b> "
 
 ## Tài khoản và công cụ
 
-- AWS account có quyền tạo Budgets, EC2, RDS, S3, IAM, CloudWatch, SNS, CloudFront và WAF.
+- AWS account có quyền tạo Budgets, EC2, RDS, S3, IAM, Secrets Manager hoặc SSM Parameter Store, CloudWatch, SNS, CloudFront và WAF.
 - Git, Java 17 và Maven Wrapper hoạt động trên máy phát triển.
 - Source TechBlog build và chạy được với MySQL local.
 - Có quyền truy cập AWS Management Console và một địa chỉ email để xác nhận SNS.
