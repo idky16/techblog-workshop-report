@@ -29,9 +29,10 @@ During my internship, I participated in two events. Each one was a memorable exp
 &emsp;**Location:** 26th Floor, Bitexco Tower, 02 Hai Trieu Street, Saigon Ward, Ho Chi Minh City  
 
 &emsp;**Role:** Attendee  
+
 ---
 
-### [Event 2](4.3-Event3/)  
+### [Event 3](4.3-Event3/)  
 &emsp;**Event Name:** FCAJ GameDay  
 
 &emsp;**Date & Time:** 09:00, June 20, 2026  

@@ -1,25 +1,29 @@
 ---
-title: "Worklog Tuần 7"
-date: 2024-01-01
+title: "Tuần 7"
+date: 2026-06-01
 weight: 7
 chapter: false
 pre: " <b> 1.7. </b> "
 ---
 
-### Mục tiêu tuần 7: Chuẩn bị môi trường Workshop và CloudFormation
+## Thời gian
 
-* Chuẩn bị hạ tầng ban đầu cho workshop Secure Hybrid Access to S3.
-* Thời gian thực hiện: từ 01/06/2026 đến 05/06/2026.
+01/06/2026 - 07/06/2026
 
-### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
-| --- | --------- | ------------ | --------------- | -------------- |
-| 2 | - Kiểm tra region us-east-1, IAM permission tạm thời và các giới hạn tài khoản AWS | 01/06/2026 | 05/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| 3 | - Triển khai CloudFormation stack tạo VPC Cloud, VPC On-Prem và EC2 test instances | 01/06/2026 | 05/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| 4 | - Kiểm tra trạng thái stack, VPC, subnet, route table và Systems Manager managed instances | 01/06/2026 | 05/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| 5 | - Ghi lại lỗi triển khai và cách xử lý để đưa vào báo cáo | 01/06/2026 | 05/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
+## Mục tiêu trong tuần
 
-### Kết quả đạt được tuần 7:
+- Tạo EC2 runtime và hoàn tất database migration.
+- Giữ TechBlog hoạt động độc lập với phiên SSH tương tác.
 
-* Môi trường workshop được chuẩn bị, có đủ tài nguyên nền tảng để triển khai VPC Endpoint.
-* Cập nhật minh chứng, ghi chú kỹ thuật và nội dung liên quan vào báo cáo thực tập.
+## Công việc đã thực hiện
+
+- Launch `techblog-ec2` bằng Amazon Linux 2023, `t3.micro`, 8 GiB gp3, Security Group đã chuẩn bị và `techblog-ec2-role`.
+- Giới hạn SSH theo IP cá nhân hiện tại, mở TCP `8080` cho demo và cài Java 17 Amazon Corretto cùng MariaDB client.
+- Upload `techblog.sql`, kết nối RDS, import schema và xác minh chín bảng TechBlog.
+- Build/upload `techblog-0.0.1-SNAPSHOT.jar`, cấu hình `/etc/techblog/techblog.env` và chạy application bằng `techblog.service`.
+
+## Kết quả và bài học
+
+- Xác minh trạng thái `active (running)` và HTTP 200 bằng `curl -I http://localhost:8080`.
+- Website tiếp tục chạy sau khi đóng phiên SSH.
+- Xử lý các lỗi về SSH allow-list, permission của PEM, RDS endpoint sai, database password sai và port `8080` chưa mở.

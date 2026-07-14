@@ -1,52 +1,52 @@
 ---
 title: "Sharing and Feedback"
-date: 2024-01-01
+date: 2026-07-15
 weight: 7
 chapter: false
 pre: " <b> 7. </b> "
 ---
 
-Here, I would like to share my personal feedback about my experience participating in the First Cloud AI Journey program, helping the FCAJ team improve any remaining shortcomings based on the following areas:
+Here, I would like to share my personal feedback about my experience participating in the First Cloud AI Journey program and the TechBlog AWS deployment project. This will help the FCAJ team improve the remaining shortcomings based on the following areas:
 
 ### Overall Evaluation
 
 **1. Working Environment**  
-The working environment is very friendly and open. FCAJ members are always willing to support me when I encounter difficulties, even outside working hours. The workspace is tidy and comfortable, helping me focus better. However, I think there could be more social gatherings or team bonding activities so everyone can understand each other better.
+The working environment is very friendly and open. The mentors and teammates were always willing to support me when I encountered difficulties, even outside working hours. The workspace was comfortable and helped me focus better. However, I think it would be even better if the team had more structured networking sessions so everyone could understand each other more quickly.
 
 **2. Support from Mentor / Team Admin**  
-The mentors provided very detailed support, explained clearly when I did not understand something, and always encouraged me to ask questions. The team admin supported procedures, documents, and created favorable conditions for me to work smoothly. I especially appreciated that the mentors allowed me to try and solve problems myself instead of simply giving me the answer.
+The mentors provided very detailed guidance, explained things clearly when I did not understand, and encouraged me to ask questions. The team admin also supported procedures and documentation, which made the work process smoother. I especially appreciated that the mentors allowed me to try solving problems myself first instead of immediately giving the answer.
 
 **3. Relevance of Work to Academic Major**  
-The tasks I was assigned, including frontend development, QA, and foundational cloud knowledge, were aligned with what I studied at university in Information Technology / Software Engineering. At the same time, they expanded into new areas that I had not practiced directly before, especially AWS services. As a result, I was able to strengthen my foundation, gain practical skills, and become better prepared for work.
+The tasks I participated in were closely related to my academic background in Information Technology and Software Engineering. In addition to the core knowledge I had learned at university, I also had the chance to explore new areas such as AWS infrastructure, deployment, monitoring, and operational troubleshooting.
 
 **4. Learning & Skill Development Opportunities**  
-During the internship, I learned many new skills such as using project management tools, working with Git in a team, manual QA, seed data design, and a wide range of AWS services including EC2, IAM, VPC, S3, RDS, CloudFront, Auto Scaling, DynamoDB, and more. The mentors also shared practical experience that helped me better orient my career path.
+During the internship, I learned many new skills such as working with AWS services including EC2, IAM, S3, RDS, SES, and CloudWatch; managing Linux-based deployment tasks; handling Spring Boot runtime setup; and working with Git in a shared project environment. The mentors also shared practical experience that helped me better orient my career path.
 
-**5. Company Culture & Team Spirit**  
-The company culture is very positive: everyone respects each other, works seriously, but still maintains an enjoyable atmosphere. When there is a tight deadline, everyone works together and supports one another regardless of position. This helped me feel like part of the team, even as an intern.
+**5. Team Culture & Spirit**  
+The team culture was very positive: everyone respected one another, worked seriously, and still maintained a friendly atmosphere. When there were urgent tasks or technical issues, colleagues supported each other and helped the project move forward smoothly.
 
 **6. Internship Policies / Benefits**  
-The company provides an internship allowance and offers flexible working hours when needed. In addition, being able to join internal AWS training sessions was a major plus.
+The internship provided useful support, including learning opportunities, practical project experience, and a comfortable environment for development. Being able to join the AWS learning program was a major plus for me.
 
 ### Additional Questions
 
 **What did you find most satisfying during your internship?**
 
-Seeing my contributions, including the Employee Portal, Settings/Report/Feedback features, and localization, actually work end-to-end in the group's final product.
+Seeing the TechBlog application run successfully on AWS and observing the main flows work end-to-end, from deployment to database access, file storage, email notification, and monitoring.
 
 **What do you think the company should improve for future interns?**
 
-There could be more structured team-bonding activities and more specific checkpoints on how to merge individual work into the shared project, helping reduce merge conflicts near the final stages.
+It would be helpful to have more structured checkpoints for shared deployment work, especially around documentation, environment configuration, and coordination between team members.
 
 **If recommending this internship to friends, would you suggest they apply? Why?**
 
-Yes. The mentors provided close guidance, and the AWS learning program was very comprehensive, helping build a strong foundation in both cloud basics and real project work.
+Yes. The mentors offered close guidance, and the program gave me strong practical experience in both AWS fundamentals and real-world project work.
 
 ### Suggestions & Expectations
 
 **Do you have any suggestions to improve the internship experience?**
 
-Provide a checklist or general guidance earlier in the program on how multiple members should branch, merge, and manage seed data together, so similar conflicts can be avoided later.
+A simple checklist for group workflow, environment variables, and evidence collection would help future interns reduce confusion and avoid unnecessary errors during deployment tasks.
 
 **Would you like to continue this program in the future?**
 

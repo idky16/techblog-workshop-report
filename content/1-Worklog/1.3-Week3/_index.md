@@ -1,25 +1,29 @@
 ---
-title: "Week 3 Worklog"
-date: 2024-01-01
+title: "Week 3"
+date: 2026-05-04
 weight: 3
 chapter: false
 pre: " <b> 1.3. </b> "
 ---
 
-### Week 3 Objectives: Amazon EC2, S3, and networking basics
+## Time
 
-* Understand compute, storage, and networking services needed for the project.
-* Timeline: from 04/05/2026 to 08/05/2026.
+04/05/2026 - 10/05/2026
 
-### Tasks to be carried out this week:
-| Day | Task | Start Date | Completion Date | Reference Material |
-| --- | ---- | ---------- | --------------- | ------------------ |
-| Mon | - Studied EC2 instances, AMIs, Security Groups, Key Pairs, and Systems Manager Session Manager | 04/05/2026 | 08/05/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| Tue | - Created a test S3 bucket, configured Block Public Access, and tested object upload/download | 04/05/2026 | 08/05/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| Wed | - Reviewed VPCs, subnets, route tables, Internet Gateway, and public/private subnets | 04/05/2026 | 08/05/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| Thu | - Captured screenshots and CLI commands for the report | 04/05/2026 | 08/05/2026 | <https://cloudjourney.awsstudygroup.com/> |
+## Weekly Objectives
 
-### Week 3 Achievements:
+- Verify core TechBlog business flows and authorization boundaries locally.
+- Convert functional requirements into an AWS deployment checklist.
 
-* Understood basic EC2, S3, and VPC connectivity, preparing for the VPC Endpoint workshop.
-* Updated evidence, technical notes, and related content in the internship report.
+## Work Completed
+
+- Tested Guest and USER/Reader flows: registration, sign-in, reading, like, save, comment, reply, report, profile, avatar, and Writer request.
+- Tested EDITOR/Writer ownership rules and the `PENDING`, `APPROVED`, and `REJECTED` post lifecycle.
+- Reviewed ADMIN flows for users, categories, comments, reports, Writer requests, and post approvals.
+- Ran the Maven Wrapper build and recorded required environment values without copying credentials into the report.
+
+## Results and Lessons
+
+- Created a functional test matrix for Guest, USER, EDITOR, and ADMIN.
+- Confirmed that AWS migration must preserve authentication, authorization, database behavior, and server-rendered Thymeleaf pages.
+- Identified RDS, private object storage, process management, monitoring, and cost controls as the main infrastructure requirements.

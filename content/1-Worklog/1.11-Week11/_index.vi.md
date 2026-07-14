@@ -1,25 +1,30 @@
 ---
-title: "Worklog Tuần 11"
-date: 2024-01-01
+title: "Tuần 11"
+date: 2026-06-29
 weight: 11
 chapter: false
 pre: " <b> 1.11. </b> "
 ---
 
-### Mục tiêu tuần 11: Cleanup, tối ưu chi phí và hoàn thiện Workshop
+## Thời gian
 
-* Hoàn thiện hướng dẫn dọn dẹp, tối ưu chi phí và nội dung workshop song ngữ.
-* Thời gian thực hiện: từ 29/06/2026 đến 03/07/2026.
+29/06/2026 - 05/07/2026
 
-### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
-| --- | --------- | ------------ | --------------- | -------------- |
-| 2 | - Xác định các tài nguyên cần xóa: S3 bucket, VPC endpoint, EC2, Route 53 Resolver, CloudFormation stack | 29/06/2026 | 03/07/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| 3 | - Thực hiện cleanup thử nghiệm và ghi lại thứ tự dọn dẹp an toàn | 29/06/2026 | 03/07/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| 4 | - Bổ sung ghi chú chi phí, bảo mật, hạn chế và hướng cải tiến production | 29/06/2026 | 03/07/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| 5 | - Rà soát toàn bộ mục Workshop, hình ảnh, link và thuật ngữ song ngữ | 29/06/2026 | 03/07/2026 | <https://cloudjourney.awsstudygroup.com/> |
+## Mục tiêu trong tuần
 
-### Kết quả đạt được tuần 11:
+- Kiểm thử end-to-end các role và AWS integration.
+- Review security boundary, chuyển lỗi triển khai thành hướng dẫn troubleshooting.
 
-* Hoàn thiện phần Workshop với hướng dẫn cleanup, cost/security notes và reflection cá nhân.
-* Cập nhật minh chứng, ghi chú kỹ thuật và nội dung liên quan vào báo cáo thực tập.
+## Công việc đã thực hiện
+
+- Kiểm thử lại Guest, USER, EDITOR và ADMIN với RDS database đã deploy.
+- Xác minh S3 avatar/ảnh bài viết có thể tạo, hiển thị, thay, xóa và vẫn tương thích ảnh local legacy.
+- Kiểm tra Amazon SES registration notification, CloudWatch log event, `techblog-high-cpu`, `systemd`, port `8080` và Java process.
+- Review SSH, EC2/RDS Security Group, S3 Block Public Access, IAM Role credential, protected environment file và SES Sandbox.
+- Tổng hợp lỗi đã gặp: public IP thay đổi, PEM permission, endpoint/password sai, connection failure, Java command bị tách, port `8080` đóng, kiểm tra quá sớm và HTTP 413.
+
+## Kết quả và bài học
+
+- Hoàn thành regression checklist thực tế cho live demo.
+- Xác nhận security boundary hiện tại và ghi rõ giới hạn HTTP, public IP thay đổi, Single-AZ, CPU alarm chỉ theo dõi trên console.
+- Biết cách tách riêng service, port, process, database, object, email và log layer khi troubleshooting.

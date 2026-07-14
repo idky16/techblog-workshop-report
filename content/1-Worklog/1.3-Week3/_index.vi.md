@@ -1,25 +1,29 @@
 ---
-title: "Worklog Tuần 3"
-date: 2024-01-01
+title: "Tuần 3"
+date: 2026-05-04
 weight: 3
 chapter: false
 pre: " <b> 1.3. </b> "
 ---
 
-### Mục tiêu tuần 3: Amazon EC2, S3 và networking nền tảng
+## Thời gian
 
-* Nắm các dịch vụ compute, storage và network cần dùng cho project.
-* Thời gian thực hiện: từ 04/05/2026 đến 08/05/2026.
+04/05/2026 - 10/05/2026
 
-### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
-| --- | --------- | ------------ | --------------- | -------------- |
-| 2 | - Tìm hiểu EC2 instance, AMI, Security Group, Key Pair và Systems Manager Session Manager | 04/05/2026 | 08/05/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| 3 | - Tạo S3 bucket thử nghiệm, cấu hình Block Public Access và kiểm tra upload/download object | 04/05/2026 | 08/05/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| 4 | - Ôn tập VPC, subnet, route table, Internet Gateway và private/public subnet | 04/05/2026 | 08/05/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| 5 | - Ghi lại hình ảnh minh chứng và lệnh CLI phục vụ báo cáo | 04/05/2026 | 08/05/2026 | <https://cloudjourney.awsstudygroup.com/> |
+## Mục tiêu trong tuần
 
-### Kết quả đạt được tuần 3:
+- Kiểm tra nghiệp vụ chính và ranh giới phân quyền của TechBlog trên local.
+- Chuyển yêu cầu chức năng thành checklist triển khai AWS.
 
-* Hiểu luồng kết nối cơ bản giữa EC2, S3 và VPC, chuẩn bị tốt cho workshop VPC Endpoint.
-* Cập nhật minh chứng, ghi chú kỹ thuật và nội dung liên quan vào báo cáo thực tập.
+## Công việc đã thực hiện
+
+- Kiểm thử Guest và USER/Reader: đăng ký, đăng nhập, đọc bài, like, save, comment, reply, report, profile, avatar và Writer request.
+- Kiểm thử quyền sở hữu bài của EDITOR/Writer cùng vòng đời `PENDING`, `APPROVED`, `REJECTED`.
+- Rà soát luồng ADMIN quản lý user, category, comment, report, Writer request và duyệt bài.
+- Chạy Maven Wrapper build và ghi nhận các environment value cần thiết mà không sao chép credential vào báo cáo.
+
+## Kết quả và bài học
+
+- Hoàn thành ma trận kiểm thử cho Guest, USER, EDITOR và ADMIN.
+- Xác nhận việc chuyển lên AWS phải giữ authentication, authorization, database behavior và Thymeleaf server-rendered page.
+- Xác định RDS, object storage private, process management, monitoring và cost control là yêu cầu hạ tầng chính.

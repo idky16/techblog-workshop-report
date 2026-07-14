@@ -1,25 +1,29 @@
 ---
-title: "Week 4 Worklog"
-date: 2024-01-01
+title: "Week 4"
+date: 2026-05-11
 weight: 4
 chapter: false
 pre: " <b> 1.4. </b> "
 ---
 
-### Week 4 Objectives: Project research and proposal writing
+## Time
 
-* Define the problem, scope, initial architecture, and implementation plan.
-* Timeline: from 11/05/2026 to 15/05/2026.
+11/05/2026 - 17/05/2026
 
-### Tasks to be carried out this week:
-| Day | Task | Start Date | Completion Date | Reference Material |
-| --- | ---- | ---------- | --------------- | ------------------ |
-| Mon | - Reviewed FCJ project rules and selected the private/hybrid S3 access use-case | 11/05/2026 | 15/05/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| Tue | - Analyzed required AWS services: S3, VPC Endpoint, EC2, SSM, Transit Gateway, Route 53 Resolver, IAM | 11/05/2026 | 15/05/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| Wed | - Drafted the initial architecture and described cloud/on-premises traffic flow to S3 | 11/05/2026 | 15/05/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| Thu | - Wrote and reviewed the bilingual Proposal section | 11/05/2026 | 15/05/2026 | <https://cloudjourney.awsstudygroup.com/> |
+## Weekly Objectives
 
-### Week 4 Achievements:
+- Design an AWS architecture that matches the Spring Boot MVC monolith.
+- Keep the first demo simple, secure, and cost-aware.
 
-* Completed project direction, initial architecture, and Proposal content.
-* Updated evidence, technical notes, and related content in the internship report.
+## Work Completed
+
+- Selected `ap-southeast-1` as the deployment Region.
+- Designed the main path: browser → Internet Gateway → public EC2 port `8080` → private RDS MySQL port `3306`.
+- Added private S3, an EC2 IAM Role, Amazon SES, CloudWatch Logs, one CPU alarm, and AWS Budgets to the project workflow.
+- Compared cost and complexity, then kept the demo architecture limited to the AWS resources required by TechBlog.
+
+## Results and Lessons
+
+- Completed a workflow diagram that accurately represents the deployed components and integration boundaries.
+- Chose small EC2/RDS configurations and Single-AZ for the learning environment.
+- Learned to separate implemented architecture from future improvements in technical documentation.

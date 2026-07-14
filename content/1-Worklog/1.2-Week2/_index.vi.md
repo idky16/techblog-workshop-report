@@ -1,25 +1,29 @@
 ---
-title: "Worklog Tuần 2"
-date: 2024-01-01
+title: "Tuần 2"
+date: 2026-04-27
 weight: 2
 chapter: false
 pre: " <b> 1.2. </b> "
 ---
 
-### Mục tiêu tuần 2: AWS IAM, CLI và quản lý tài nguyên cơ bản
+## Thời gian
 
-* Củng cố kỹ năng thao tác AWS an toàn bằng IAM, CLI và console.
-* Thời gian thực hiện: từ 27/04/2026 đến 01/05/2026.
+27/04/2026 - 03/05/2026
 
-### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
-| --- | --------- | ------------ | --------------- | -------------- |
-| 2 | - Tìm hiểu IAM user, group, role, policy và nguyên tắc least privilege | 27/04/2026 | 01/05/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| 3 | - Thực hành cấu hình AWS CLI profile, region và kiểm tra danh tính bằng sts get-caller-identity | 27/04/2026 | 01/05/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| 4 | - Tìm hiểu tagging, billing alarm và cách theo dõi chi phí khi thực hành | 27/04/2026 | 01/05/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| 5 | - Ghi nhật ký các lỗi cấu hình thường gặp và cách xử lý | 27/04/2026 | 01/05/2026 | <https://cloudjourney.awsstudygroup.com/> |
+## Mục tiêu trong tuần
 
-### Kết quả đạt được tuần 2:
+- Hiểu source TechBlog hiện tại trước khi đề xuất thay đổi lên AWS.
+- Xác nhận application và database local là baseline ổn định để triển khai.
 
-* Có thể dùng AWS CLI/Console để kiểm tra tài khoản, quản lý quyền cơ bản và hạn chế rủi ro chi phí.
-* Cập nhật minh chứng, ghi chú kỹ thuật và nội dung liên quan vào báo cáo thực tập.
+## Công việc đã thực hiện
+
+- Rà soát stack Java 17, Spring Boot 3.5.12, Spring MVC, Spring Security, Spring Data JPA/Hibernate, Thymeleaf, MySQL và Maven Wrapper.
+- Xác nhận frontend và backend được đóng gói chung trong một MVC monolith, không phải React application tách riêng.
+- Chạy TechBlog tại `http://localhost:8080` và kiểm tra database `techblog` trên Laragon/MySQL.
+- Xác định hai thư mục upload legacy `storage/avatars`, `storage/posts` và cách Thymeleaf hiển thị các file này.
+
+## Kết quả và bài học
+
+- Hoàn thành inventory về application, database, upload và runtime dependency.
+- Xác nhận Amazon EC2 phù hợp để chạy executable JAR của ứng dụng monolithic.
+- Xác định yêu cầu tương thích: ảnh local cũ vẫn phải hiển thị sau khi tích hợp S3.

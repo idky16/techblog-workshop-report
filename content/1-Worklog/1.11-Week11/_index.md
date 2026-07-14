@@ -1,25 +1,30 @@
 ---
-title: "Week 11 Worklog"
-date: 2024-01-01
+title: "Week 11"
+date: 2026-06-29
 weight: 11
 chapter: false
 pre: " <b> 1.11. </b> "
 ---
 
-### Week 11 Objectives: Cleanup, cost optimization, and Workshop completion
+## Time
 
-* Complete cleanup guidance, cost optimization notes, and bilingual workshop content.
-* Timeline: from 29/06/2026 to 03/07/2026.
+29/06/2026 - 05/07/2026
 
-### Tasks to be carried out this week:
-| Day | Task | Start Date | Completion Date | Reference Material |
-| --- | ---- | ---------- | --------------- | ------------------ |
-| Mon | - Identified resources to delete: S3 bucket, VPC endpoints, EC2, Route 53 Resolver, CloudFormation stacks | 29/06/2026 | 03/07/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| Tue | - Performed cleanup testing and documented safe deletion order | 29/06/2026 | 03/07/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| Wed | - Added cost, security, limitation, and production improvement notes | 29/06/2026 | 03/07/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| Thu | - Reviewed the full Workshop section, images, links, and bilingual terminology | 29/06/2026 | 03/07/2026 | <https://cloudjourney.awsstudygroup.com/> |
+## Weekly Objectives
 
-### Week 11 Achievements:
+- Perform end-to-end testing across application roles and AWS integrations.
+- Review security boundaries and turn deployment failures into troubleshooting guidance.
 
-* Completed the Workshop section with cleanup guidance, cost/security notes, and personal reflection.
-* Updated evidence, technical notes, and related content in the internship report.
+## Work Completed
+
+- Re-tested Guest, USER, EDITOR, and ADMIN scenarios against the deployed RDS database.
+- Verified S3 avatar/post-image create, display, replace, and delete behavior plus local legacy-image compatibility.
+- Checked Amazon SES registration notification, CloudWatch log events, `techblog-high-cpu`, `systemd`, port `8080`, and the Java process.
+- Reviewed SSH, EC2 and RDS Security Groups, S3 Block Public Access, IAM Role credentials, protected environment files, and SES Sandbox limits.
+- Consolidated known issues: changing public IP, PEM permissions, incorrect endpoint/password, connection failure, broken Java command, closed port `8080`, slow restart, and HTTP 413.
+
+## Results and Lessons
+
+- Completed a practical regression checklist for the live demo.
+- Confirmed the current security boundary and documented limitations such as HTTP, a changeable public IP, Single-AZ, and console-only CPU alarms.
+- Learned to verify service, port, process, database, object, email, and log layers separately during troubleshooting.

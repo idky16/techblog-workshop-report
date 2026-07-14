@@ -1,25 +1,30 @@
 ---
-title: "Week 12 Worklog"
-date: 2024-01-01
+title: "Week 12"
+date: 2026-07-06
 weight: 12
 chapter: false
 pre: " <b> 1.12. </b> "
 ---
 
-### Week 12 Objectives: Final review and report completion
+## Time
 
-* Review the full report, ensure bilingual completeness, and prepare for submission.
-* Timeline: from 06/07/2026 to 10/07/2026.
+06/07/2026 - 12/07/2026
 
-### Tasks to be carried out this week:
-| Day | Task | Start Date | Completion Date | Reference Material |
-| --- | ---- | ---------- | --------------- | ------------------ |
-| Mon | - Updated student information, internship duration, and report table of contents | 06/07/2026 | 10/07/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| Tue | - Reviewed 12-week Worklog, Proposal, Blogs, Events, Workshop, Self-evaluation, and Feedback | 06/07/2026 | 10/07/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| Wed | - Checked Hugo build, vi/en language switching, internal links, and spelling issues | 06/07/2026 | 10/07/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| Thu | - Summarized lessons learned, challenges, future improvements, and prepared the final submission | 06/07/2026 | 10/07/2026 | <https://cloudjourney.awsstudygroup.com/> |
+## Weekly Objectives
 
-### Week 12 Achievements:
+- Complete the bilingual Hugo report and make it consistent with the deployed AWS environment.
+- Prepare a clear, defensible demo path and final evidence checklist.
 
-* The report was completed for the 12-week period from 20/04/2026 to 10/07/2026 and ready for submission.
-* Updated evidence, technical notes, and related content in the internship report.
+## Work Completed
+
+- Rewrote Proposal and Workshop pages in matching English and Vietnamese structures.
+- Organized the sequential workshop from AWS Budgets and foundation services through RDS, EC2, S3/SES runtime integration, CloudWatch, testing, and cleanup.
+- Added the TechBlog AWS workflow diagram, live demo access, service tables, safe placeholders, commands, expected results, and troubleshooting notes.
+- Replaced template content with TechBlog-specific Worklog and Blogs Posted material, then reviewed front matter, menu weights, language switching, and internal links.
+- Ran a clean Hugo build and checked that the public output contained no duplicate menu numbering, visible TODO text, live-reload script, or broken internal reference.
+
+## Results and Lessons
+
+- Produced a bilingual report that reflects the current EC2, RDS, S3, IAM, SES, CloudWatch, and AWS Budgets deployment.
+- Prepared the live demo and backup-evidence plan without exposing credentials, database endpoints, private keys, cookies, or tokens.
+- Completed a cleanup checklist and clearly separated current limitations from future improvements.

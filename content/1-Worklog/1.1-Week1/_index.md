@@ -1,25 +1,30 @@
 ---
-title: "Week 1 Worklog"
-date: 2024-01-01
+title: "Week 1"
+date: 2026-04-17
 weight: 1
 chapter: false
 pre: " <b> 1.1. </b> "
 ---
 
-### Week 1 Objectives: Onboarding and AWS fundamentals
+## Time
 
-* Get familiar with the internship program, FCJ rules, and foundational AWS services.
-* Timeline: from 20/04/2026 to 24/04/2026.
+17/04/2026 - 26/04/2026
 
-### Tasks to be carried out this week:
-| Day | Task | Start Date | Completion Date | Reference Material |
-| --- | ---- | ---------- | --------------- | ------------------ |
-| Mon | - Joined onboarding and reviewed FCJ report/workshop requirements | 20/04/2026 | 24/04/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| Tue | - Studied AWS Global Infrastructure, IAM, EC2, S3, VPC, and the shared responsibility model | 20/04/2026 | 24/04/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| Wed | - Installed Git, VS Code, AWS CLI, and the Hugo local server | 20/04/2026 | 24/04/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| Thu | - Prepared the report repository, checked vi/en structure, and drafted the 12-week plan | 20/04/2026 | 24/04/2026 | <https://cloudjourney.awsstudygroup.com/> |
+## Weekly Objectives
 
-### Week 1 Achievements:
+- Understand the First Cloud AI Journey program, its deliverables, and the role of the individual worklog.
+- Review cloud-computing fundamentals and the basic AWS responsibility model.
+- Establish safe account-use rules before creating resources.
 
-* Understood internship goals, working tools, report structure, and the overall direction.
-* Updated evidence, technical notes, and related content in the internship report.
+## Work Completed
+
+- Reviewed the program roadmap and the required Hugo report sections.
+- Studied Regions, Availability Zones, the AWS Management Console, IAM fundamentals, and cost awareness.
+- Agreed that the TTV group would use one shared deployment environment without sharing root credentials.
+- Prepared the local tools needed for later work: Git, Java 17, Maven Wrapper, IntelliJ IDEA, Laragon, and MySQL.
+
+## Results and Lessons
+
+- Built a clear learning plan linking AWS concepts to the TechBlog deployment.
+- Understood why daily work should use IAM identities and why AWS Budgets must be created before chargeable resources.
+- Identified the distinction between individual report sections and shared TTV deliverables.

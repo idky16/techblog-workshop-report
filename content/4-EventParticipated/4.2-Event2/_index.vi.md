@@ -128,7 +128,7 @@ Việc tham dự FCAJ Community Meetup đã giúp tôi có góc nhìn rộng hơ
 
 #### Một số hình ảnh sự kiện
 
-![Hình ảnh minh chứng](/techblog-workshop-report/images/4-EventParticipated/Event02-01.JPG)
-![Hình ảnh minh chứng](/techblog-workshop-report/images/4-EventParticipated/Event02-02.JPG)
+![Hình ảnh minh chứng](/techblog-workshop-report/static/images/4-EventParticipated/Event02-01.png)
+![Hình ảnh minh chứng](/techblog-workshop-report/static/images/4-EventParticipated/Event02-02.png)
 
 > Nhìn chung, FCAJ Community Meetup đã kết nối hiệu quả nhiều chủ đề gồm kiến trúc Cloud, DevOps, phân tích dữ liệu, phát triển nghề nghiệp và văn hóa doanh nghiệp. Sự kiện không chỉ mang lại kiến thức thực tế về AWS và kỹ thuật, mà còn giúp tôi hiểu rõ hơn về tư duy, kỹ năng giao tiếp và tiêu chuẩn nghề nghiệp cần thiết để phát triển từ một sinh viên trở thành một chuyên gia công nghệ có trách nhiệm.

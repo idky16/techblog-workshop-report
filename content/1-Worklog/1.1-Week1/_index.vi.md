@@ -1,25 +1,30 @@
 ---
-title: "Worklog Tuần 1"
-date: 2024-01-01
+title: "Tuần 1"
+date: 2026-04-17
 weight: 1
 chapter: false
 pre: " <b> 1.1. </b> "
 ---
 
-### Mục tiêu tuần 1: Làm quen môi trường thực tập và AWS cơ bản
+## Thời gian
 
-* Làm quen với chương trình thực tập, quy định FCJ và các dịch vụ AWS nền tảng.
-* Thời gian thực hiện: từ 20/04/2026 đến 24/04/2026.
+17/04/2026 - 26/04/2026
 
-### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
-| --- | --------- | ------------ | --------------- | -------------- |
-| 2 | - Tham gia onboarding, tìm hiểu yêu cầu báo cáo và cấu trúc workshop FCJ | 20/04/2026 | 24/04/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| 3 | - Tìm hiểu AWS Global Infrastructure, IAM, EC2, S3, VPC và mô hình shared responsibility | 20/04/2026 | 24/04/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| 4 | - Cài đặt công cụ làm việc: Git, VS Code, AWS CLI và Hugo local server | 20/04/2026 | 24/04/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| 5 | - Tạo repository báo cáo, kiểm tra song ngữ vi/en và ghi chú kế hoạch 12 tuần | 20/04/2026 | 24/04/2026 | <https://cloudjourney.awsstudygroup.com/> |
+## Mục tiêu trong tuần
 
-### Kết quả đạt được tuần 1:
+- Hiểu chương trình First Cloud AI Journey, các deliverable và vai trò của worklog cá nhân.
+- Ôn kiến thức nền tảng về Cloud Computing và shared responsibility trên AWS.
+- Thống nhất nguyên tắc sử dụng AWS account an toàn trước khi tạo tài nguyên.
 
-* Nắm được mục tiêu thực tập, môi trường làm việc, công cụ cần dùng và định hướng nội dung báo cáo.
-* Cập nhật minh chứng, ghi chú kỹ thuật và nội dung liên quan vào báo cáo thực tập.
+## Công việc đã thực hiện
+
+- Xem lại lộ trình chương trình và các phần bắt buộc của báo cáo Hugo.
+- Tìm hiểu Region, Availability Zone, AWS Management Console, IAM cơ bản và cost awareness.
+- Thống nhất nhóm TTV dùng một môi trường triển khai chung nhưng không chia sẻ root credential.
+- Chuẩn bị công cụ local cho các tuần sau: Git, Java 17, Maven Wrapper, IntelliJ IDEA, Laragon và MySQL.
+
+## Kết quả và bài học
+
+- Xây dựng được lộ trình liên kết kiến thức AWS với việc triển khai TechBlog.
+- Hiểu vì sao thao tác hằng ngày phải dùng IAM identity và cần tạo AWS Budgets trước tài nguyên có tính phí.
+- Phân biệt được phần báo cáo cá nhân với deliverable dùng chung của nhóm TTV.

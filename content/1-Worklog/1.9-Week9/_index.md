@@ -1,25 +1,30 @@
 ---
-title: "Week 9 Worklog"
-date: 2024-01-01
+title: "Week 9"
+date: 2026-06-15
 weight: 9
 chapter: false
 pre: " <b> 1.9. </b> "
 ---
 
-### Week 9 Objectives: Implementing Interface Endpoint and hybrid access simulation
+## Time
 
-* Extend private S3 access to the simulated on-premises environment.
-* Timeline: from 15/06/2026 to 19/06/2026.
+15/06/2026 - 21/06/2026
 
-### Tasks to be carried out this week:
-| Day | Task | Start Date | Completion Date | Reference Material |
-| --- | ---- | ---------- | --------------- | ------------------ |
-| Mon | - Studied PrivateLink, Interface Endpoint, private DNS, and on-premises access flow | 15/06/2026 | 19/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| Tue | - Deployed the S3 Interface Endpoint and checked ENIs/private IPs in subnets | 15/06/2026 | 19/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| Wed | - Configured/verified Route 53 Resolver, private hosted zone, and DNS simulation | 15/06/2026 | 19/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| Thu | - Tested S3 access from the simulated on-premises instance | 15/06/2026 | 19/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
+## Weekly Objectives
 
-### Week 9 Achievements:
+- Integrate a small transactional-email use case without changing registration behavior.
+- Respect Amazon SES Sandbox and IAM Role security boundaries.
 
-* Completed private S3 access flow from the simulated hybrid environment.
-* Updated evidence, technical notes, and related content in the internship report.
+## Work Completed
+
+- Added AWS SDK v2 SES support using `SesV2Client`, the default credential chain, and `techblog-ec2-role`.
+- Configured a verified sender and verified administrator recipient through environment variables.
+- Sent an administrator notification only after a new user was stored successfully; included username, display name, registration email, and time.
+- Implemented best-effort handling so an Amazon SES failure logs a short warning but does not roll back registration.
+- Tested sending through the console, the EC2 IAM Role with AWS CLI, and the Spring Boot registration flow.
+
+## Results and Lessons
+
+- Verified the administrator registration notification in the SES Sandbox.
+- Confirmed that no password, password hash, JWT, cookie, or AWS credential appears in the email or log.
+- Documented that Sandbox sending is limited to verified recipients and is not a general-purpose welcome-email workflow.

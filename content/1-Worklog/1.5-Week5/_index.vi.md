@@ -1,25 +1,29 @@
 ---
-title: "Worklog Tuần 5"
-date: 2024-01-01
+title: "Tuần 5"
+date: 2026-05-18
 weight: 5
 chapter: false
 pre: " <b> 1.5. </b> "
 ---
 
-### Mục tiêu tuần 5: Dịch blog AWS và tổng hợp kiến thức
+## Thời gian
 
-* Dịch, tóm tắt và rút ra bài học kỹ thuật từ các blog AWS liên quan.
-* Thời gian thực hiện: từ 18/05/2026 đến 22/05/2026.
+18/05/2026 - 24/05/2026
 
-### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
-| --- | --------- | ------------ | --------------- | -------------- |
-| 2 | - Chọn các blog AWS phù hợp với networking, storage, security và cloud architecture | 18/05/2026 | 22/05/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| 3 | - Dịch blog 1-2, chuẩn hóa thuật ngữ kỹ thuật và thêm phần tóm tắt cá nhân | 18/05/2026 | 22/05/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| 4 | - Dịch blog 3, kiểm tra link nguồn và hình ảnh minh họa nếu có | 18/05/2026 | 22/05/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| 5 | - Cập nhật mục Translated Blogs trong cả tiếng Anh và tiếng Việt | 18/05/2026 | 22/05/2026 | <https://cloudjourney.awsstudygroup.com/> |
+## Mục tiêu trong tuần
 
-### Kết quả đạt được tuần 5:
+- Thiết lập cost control và foundation service trước khi tạo compute resource.
+- Chuẩn bị media storage private và quyền AWS theo role, không dùng static key.
 
-* Hoàn thành nhóm blog dịch chính và rút ra kiến thức áp dụng cho project.
-* Cập nhật minh chứng, ghi chú kỹ thuật và nội dung liên quan vào báo cáo thực tập.
+## Công việc đã thực hiện
+
+- Tạo AWS Budget để theo dõi chi phí trước các tài nguyên chính có tính phí.
+- Tạo bucket private `techblog-uploads-ttv-2026`, bật Block Public Access, SSE-S3 và tạo prefix `avatars/`, `posts/`.
+- Tạo `techblog-ec2-role`, chuẩn bị `AmazonS3FullAccess`, `CloudWatchAgentServerPolicy` và inline `TechBlogSesSendEmail` theo trạng thái demo đã xác minh.
+- Verify một Amazon SES email identity tại `ap-southeast-1` và ghi nhận giới hạn Sandbox.
+
+## Kết quả và bài học
+
+- Xác nhận source code không cần Access Key hoặc Secret Access Key.
+- Hoàn thành ranh giới S3 private và IAM cần cho application.
+- Ghi rõ `AmazonS3FullAccess` là policy hiện tại của demo và nên thu hẹp theo bucket/prefix trong tương lai.

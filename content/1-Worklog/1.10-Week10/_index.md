@@ -1,25 +1,29 @@
 ---
-title: "Week 10 Worklog"
-date: 2024-01-01
+title: "Week 10"
+date: 2026-06-22
 weight: 10
 chapter: false
 pre: " <b> 1.10. </b> "
 ---
 
-### Week 10 Objectives: Endpoint policy, security, and monitoring
+## Time
 
-* Strengthen access control, collect operational evidence, and test failure cases.
-* Timeline: from 22/06/2026 to 26/06/2026.
+22/06/2026 - 28/06/2026
 
-### Tasks to be carried out this week:
-| Day | Task | Start Date | Completion Date | Reference Material |
-| --- | ---- | ---------- | --------------- | ------------------ |
-| Mon | - Wrote and applied a VPC Endpoint Policy limiting required bucket/actions | 22/06/2026 | 26/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| Tue | - Tested allowed and denied S3 access scenarios | 22/06/2026 | 26/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| Wed | - Reviewed CloudWatch/SSM logs, endpoint status, and troubleshooting signals | 22/06/2026 | 26/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| Thu | - Updated Workshop security, validation, and expected results sections | 22/06/2026 | 26/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
+## Weekly Objectives
 
-### Week 10 Achievements:
+- Centralize appropriate application logs and create a simple EC2 health signal.
+- Keep monitoring useful without collecting sensitive data or adding unnecessary services.
 
-* The project gained clearer security controls, success/failure test cases, and operational evidence.
-* Updated evidence, technical notes, and related content in the internship report.
+## Work Completed
+
+- Configured Spring Boot to write application events to `/var/log/techblog/application.log`.
+- Installed and configured CloudWatch Agent to publish to Standard-class Log Group `/techblog/application` with 14-day retention.
+- Verified the log stream named by the EC2 instance ID and checked new events after website requests.
+- Created `techblog-high-cpu` for Average `CPUUtilization > 70%`, five-minute periods, 2 of 2 datapoints, with missing data treated as not breaching.
+
+## Results and Lessons
+
+- Centralized INFO, WARN, and ERROR application events in CloudWatch Logs.
+- Confirmed that passwords, tokens, cookies, and sensitive request data must not be logged.
+- Recorded that the CPU alarm has no notification action and is reviewed directly in the CloudWatch console.

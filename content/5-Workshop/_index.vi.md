@@ -9,12 +9,11 @@ pre: " <b> 5. </b> "
 {{% notice info %}}
 ### Truy cập bản demo trực tiếp
 
-Mentor có thể truy cập website TechBlog đang chạy trên AWS tại:
+
 
 [http://13.212.52.148:8080](http://13.212.52.148:8080)
 
-Website được phục vụ trực tiếp bởi Spring Boot trên Amazon EC2 qua HTTP port 8080. Bản demo chưa sử dụng domain hoặc HTTPS và dự kiến được duy trì đến ngày 30/07/2026.
-{{% /notice %}}
+
 
 ## Tổng quan workshop
 

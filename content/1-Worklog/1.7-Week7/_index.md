@@ -1,25 +1,29 @@
 ---
-title: "Week 7 Worklog"
-date: 2024-01-01
+title: "Week 7"
+date: 2026-06-01
 weight: 7
 chapter: false
 pre: " <b> 1.7. </b> "
 ---
 
-### Week 7 Objectives: Workshop environment preparation and CloudFormation
+## Time
 
-* Prepare initial infrastructure for the Secure Hybrid Access to S3 workshop.
-* Timeline: from 01/06/2026 to 05/06/2026.
+01/06/2026 - 07/06/2026
 
-### Tasks to be carried out this week:
-| Day | Task | Start Date | Completion Date | Reference Material |
-| --- | ---- | ---------- | --------------- | ------------------ |
-| Mon | - Checked us-east-1 region, temporary IAM permissions, and account limits | 01/06/2026 | 05/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| Tue | - Deployed CloudFormation stacks for VPC Cloud, VPC On-Prem, and test EC2 instances | 01/06/2026 | 05/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| Wed | - Verified stack status, VPCs, subnets, route tables, and Systems Manager managed instances | 01/06/2026 | 05/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| Thu | - Documented deployment issues and fixes for the report | 01/06/2026 | 05/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
+## Weekly Objectives
 
-### Week 7 Achievements:
+- Create the EC2 runtime and complete database migration.
+- Keep TechBlog running independently of an interactive SSH session.
 
-* Workshop environment was prepared with the required baseline resources for VPC Endpoint implementation.
-* Updated evidence, technical notes, and related content in the internship report.
+## Work Completed
+
+- Launched `techblog-ec2` with Amazon Linux 2023, `t3.micro`, 8 GiB gp3, the prepared Security Group, and `techblog-ec2-role`.
+- Restricted SSH to the current personal IP, opened TCP `8080` for the demo, and installed Java 17 Amazon Corretto plus the MariaDB client.
+- Uploaded `techblog.sql`, connected to RDS, imported the schema, and verified the nine TechBlog tables.
+- Built and uploaded `techblog-0.0.1-SNAPSHOT.jar`, configured `/etc/techblog/techblog.env`, and ran the application using `techblog.service`.
+
+## Results and Lessons
+
+- Verified `active (running)` and HTTP 200 from `curl -I http://localhost:8080`.
+- Kept the web application running after the SSH session closed.
+- Resolved deployment issues involving SSH allow-list changes, PEM permissions, an incorrect RDS endpoint, a wrong database password, and port `8080` access.

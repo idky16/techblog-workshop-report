@@ -1,25 +1,30 @@
 ---
-title: "Worklog Tuần 8"
-date: 2024-01-01
+title: "Tuần 8"
+date: 2026-06-08
 weight: 8
 chapter: false
 pre: " <b> 1.8. </b> "
 ---
 
-### Mục tiêu tuần 8: Triển khai Gateway VPC Endpoint cho S3
+## Thời gian
 
-* Thiết lập truy cập S3 private từ workload trong VPC Cloud.
-* Thời gian thực hiện: từ 08/06/2026 đến 12/06/2026.
+08/06/2026 - 14/06/2026
 
-### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
-| --- | --------- | ------------ | --------------- | -------------- |
-| 2 | - Tạo S3 bucket kiểm thử và đảm bảo bucket không public | 08/06/2026 | 12/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| 3 | - Tạo Gateway VPC Endpoint cho S3 và liên kết với route table phù hợp | 08/06/2026 | 12/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| 4 | - Truy cập EC2 bằng Session Manager và kiểm thử aws s3 ls/cp qua endpoint | 08/06/2026 | 12/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| 5 | - Chụp ảnh route table, endpoint status và kết quả CLI để đưa vào workshop | 08/06/2026 | 12/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
+## Mục tiêu trong tuần
 
-### Kết quả đạt được tuần 8:
+- Chuyển thao tác avatar và ảnh bài viết mới sang Amazon S3 private.
+- Giữ tương thích ảnh local legacy và tăng độ an toàn của upload.
 
-* Xác minh EC2 trong VPC có thể truy cập S3 thông qua Gateway endpoint thay vì public Internet.
-* Cập nhật minh chứng, ghi chú kỹ thuật và nội dung liên quan vào báo cáo thực tập.
+## Công việc đã thực hiện
+
+- Tích hợp AWS SDK for Java v2 thông qua storage abstraction có local provider và S3 provider.
+- Lưu reference mới dạng `s3:avatars/<uuid>.<ext>` hoặc `s3:posts/<uuid>.<ext>`; chỉ tạo presigned GET URL 10 phút khi render.
+- Giữ tương thích reference legacy `/images/avatars/...`, `posts/...` với các thư mục local hiện có.
+- Thêm signature validation cho JPEG, PNG, GIF, WebP; từ chối file rỗng, SVG, giả dạng ảnh hoặc vượt giới hạn.
+- Sửa regression HTTP 413 bằng multipart transport limit 50 MB, đồng thời giữ business limit avatar 5 MiB và ảnh bài viết 15 MiB.
+
+## Kết quả và bài học
+
+- Kiểm tra thành công upload, hiển thị, thay thế và xóa object avatar/ảnh bài viết.
+- Xác nhận bucket vẫn private, không dùng public ACL, public bucket policy hoặc browser CORS.
+- Phân biệt được giới hạn parse multipart của HTTP với application validation chặt hơn.

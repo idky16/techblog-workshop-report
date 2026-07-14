@@ -1,33 +1,30 @@
 ---
 title: "Worklog"
-date: 2024-01-01
+date: 2026-04-17
 weight: 1
 chapter: false
 pre: " <b> 1. </b> "
 ---
 
-The worklog is organized into 12 internship weeks, from **20/04/2026** to **10/07/2026**. The timeline moves from AWS onboarding and fundamentals to project research, blog translation, event participation, technical workshop implementation, validation, cleanup, and final report completion.
+This individual worklog records a 12-week learning and implementation journey around the TTV group's TechBlog project. It follows the actual technical scope of the final system: a Java 17 and Spring Boot 3.5.12 MVC monolith deployed to Amazon EC2, private Amazon RDS for MySQL, private Amazon S3 media storage, Amazon SES registration notifications, and Amazon CloudWatch monitoring.
 
-**Week 1 (20/04/2026 - 24/04/2026):** [Onboarding and AWS fundamentals](1.1-week1/)
+## Twelve-Week Overview
 
-**Week 2 (27/04/2026 - 01/05/2026):** [AWS IAM, CLI, and basic resource management](1.2-week2/)
+The middle of the worklog is arranged to show the transition from infrastructure preparation to application integration and monitoring for the TechBlog AWS demo.
 
-**Week 3 (04/05/2026 - 08/05/2026):** [Amazon EC2, S3, and networking basics](1.3-week3/)
+| Week | Main focus |
+|---:|---|
+| 1 | Program orientation, cloud fundamentals, and report requirements |
+| 2 | Local TechBlog architecture and environment assessment |
+| 3 | Role-based workflows, build verification, and deployment requirements |
+| 4 | Cost-aware AWS architecture and implementation planning |
+| 5 | Cost control, private S3 storage, IAM Role, and Amazon SES identity |
+| 6 | Private RDS MySQL, security groups, and local database export |
+| 7 | EC2 launch, database import, Spring Boot JAR, and systemd |
+| 8 | S3 application integration, legacy images, and upload validation |
+| 9 | Amazon SES integration and administrator registration notification |
+| 10 | CloudWatch Agent, centralized logs, and the CPU alarm |
+| 11 | End-to-end testing, security review, and troubleshooting |
+| 12 | Bilingual Hugo report, architecture evidence, and final demo review |
 
-**Week 4 (11/05/2026 - 15/05/2026):** [Project research and proposal writing](1.4-week4/)
-
-**Week 5 (18/05/2026 - 22/05/2026):** [AWS blog translation and knowledge synthesis](1.5-week5/)
-
-**Week 6 (25/05/2026 - 29/05/2026):** [Event participation and learning log refinement](1.6-week6/)
-
-**Week 7 (01/06/2026 - 05/06/2026):** [Workshop environment preparation and CloudFormation](1.7-week7/)
-
-**Week 8 (08/06/2026 - 12/06/2026):** [Implementing S3 Gateway VPC Endpoint](1.8-week8/)
-
-**Week 9 (15/06/2026 - 19/06/2026):** [Implementing Interface Endpoint and hybrid access simulation](1.9-week9/)
-
-**Week 10 (22/06/2026 - 26/06/2026):** [Endpoint policy, security, and monitoring](1.10-week10/)
-
-**Week 11 (29/06/2026 - 03/07/2026):** [Cleanup, cost optimization, and Workshop completion](1.11-week11/)
-
-**Week 12 (06/07/2026 - 10/07/2026):** [Final review and report completion](1.12-week12/)
+The weekly pages focus only on services and activities relevant to the deployed TechBlog environment. Services not implemented in the demo are not presented as completed work.

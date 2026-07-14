@@ -1,25 +1,29 @@
 ---
-title: "Week 6 Worklog"
-date: 2024-01-01
+title: "Week 6"
+date: 2026-05-25
 weight: 6
 chapter: false
 pre: " <b> 1.6. </b> "
 ---
 
-### Week 6 Objectives: Event participation and learning log refinement
+## Time
 
-* Document community/event participation and connect lessons to the project.
-* Timeline: from 25/05/2026 to 29/05/2026.
+25/05/2026 - 31/05/2026
 
-### Tasks to be carried out this week:
-| Day | Task | Start Date | Completion Date | Reference Material |
-| --- | ---- | ---------- | --------------- | ------------------ |
-| Mon | - Joined or summarized AWS/FCJ sharing sessions | 25/05/2026 | 29/05/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| Tue | - Recorded role, key topics, lessons learned, and supporting screenshots | 25/05/2026 | 29/05/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| Wed | - Updated Events Participated with specific details instead of placeholders | 25/05/2026 | 29/05/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| Thu | - Reviewed progress across Worklog, Proposal, and Blogs | 25/05/2026 | 29/05/2026 | <https://cloudjourney.awsstudygroup.com/> |
+## Weekly Objectives
 
-### Week 6 Achievements:
+- Replace local MySQL with a private managed database.
+- Prepare migration data and the EC2-to-RDS security boundary in the correct order.
 
-* Completed the event section and clarified learning value from community activities.
-* Updated evidence, technical notes, and related content in the internship report.
+## Work Completed
+
+- Created `techblog-db` using Amazon RDS for MySQL, `db.t3.micro`, Single-AZ, database `techblog`, and public access disabled.
+- Prepared the EC2 Security Group and configured the RDS Security Group to accept MySQL `3306` only from that group.
+- Recorded endpoint, database, port, and username using safe placeholders in the report.
+- Exported the local database to `techblog.sql` with `mysqldump` and checked the dump before EC2 creation.
+
+## Results and Lessons
+
+- Built a private database path without opening MySQL to `0.0.0.0/0`.
+- Prepared a repeatable migration file while keeping passwords and the complete endpoint out of documentation.
+- Understood why network testing and import must wait until EC2 exists.
