@@ -76,7 +76,7 @@ Tham gia Community Sharing Day là một sự kết hợp thú vị giữa nội
 - Phần nhẹ nhàng về **tử vi** và phần **sự tự tin** mang lại sự đa dạng tốt, giúp cả ngày sự kiện cân bằng hơn chứ không chỉ thuần kỹ thuật.
 
 #### Một số hình ảnh khi tham gia sự kiện
-![Hình ảnh chứng minh](/images/4-EventParticipated/Event01-01.JPG)
-![Hình ảnh chứng minh](/images/4-EventParticipated/Event01-02.JPG)
+![Hình ảnh chứng minh](/techblog-workshop-report/images/4-EventParticipated/Event01-01.JPG)
+![Hình ảnh chứng minh](/techblog-workshop-report/images/4-EventParticipated/Event01-02.JPG)
 
 > Tổng thể, sự kiện này kết hợp cảm hứng kỹ thuật (Cloud Quest, tư duy DevOps) với phát triển bản thân (tự tin, trì hoãn) và một góc nhìn vui vẻ, đời thường (câu chuyện hackathon, chủ đề tử vi) - đây là một trong những sự kiện toàn diện nhất mình tham gia trong kỳ thực tập.

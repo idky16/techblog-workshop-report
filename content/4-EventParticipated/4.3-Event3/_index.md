@@ -120,7 +120,7 @@ Participating in FCAJ GameDay on June 20, 2026, was an enjoyable learning experi
 
 #### Some Event Photos
 
-![Image proof](/images/4-EventParticipated/Event03-01.JPG)
-![Image proof](/images/4-EventParticipated/Event03-02.JPG)
+![Image proof](/techblog-workshop-report/images/4-EventParticipated/Event03-01.JPG)
+![Image proof](/techblog-workshop-report/images/4-EventParticipated/Event03-02.JPG)
 
 > Overall, FCAJ GameDay - Battle of the 8 Teams was a highly interactive and engaging learning activity. By selecting question sets, competing for points and coordinating with teammates, I had the opportunity not only to reinforce my Cloud and AWS knowledge but also to develop communication, quick-thinking, time-management and teamwork skills. The event demonstrated that technical learning can become more engaging and effective when it is combined with games and healthy competition.

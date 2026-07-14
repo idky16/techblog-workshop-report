@@ -128,7 +128,7 @@ Attending this FCAJ Community Meetup gave me a broader view of both technical ca
 
 #### Some event photos
 
-![Image proof](/images/4-EventParticipated/Event02-01.JPG)
-![Image proof](/images/4-EventParticipated/Event02-02.JPG)
+![Image proof](/techblog-workshop-report/images/4-EventParticipated/Event02-01.JPG)
+![Image proof](/techblog-workshop-report/images/4-EventParticipated/Event02-02.JPG)
 
 > Overall, this FCAJ Community Meetup successfully connected cloud architecture, DevOps, data analytics, career development and corporate culture. The event provided not only practical AWS and engineering knowledge, but also a clearer understanding of the mindset, communication skills and professional standards needed to grow from a student into a responsible technology professional.
