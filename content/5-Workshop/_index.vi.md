@@ -7,13 +7,14 @@ pre: " <b> 5. </b> "
 ---
 
 {{% notice info %}}
+
 ### Truy cập bản demo trực tiếp
 
 
 
 [http://13.212.52.148:8080](http://13.212.52.148:8080)
 
-
+{{% /notice %}}
 
 ## Tổng quan workshop
 
