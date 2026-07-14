@@ -14,6 +14,8 @@ In this post, I would like to share an interesting solution from my exploration 
 
 {{< content-image src="images/3-BlogsPosted/ML-21199-1.png" alt="Amazon Q and Cisco Webex MCP Servers meeting prep and follow-up assistant architecture" >}}
 
+{{< content-image src="images/3-BlogsPosted/b1.jpg" alt="Facebook post about the Amazon Q and Cisco Webex MCP Servers meeting assistant" >}}
+
 In modern enterprise environments, employees often attend many meetings every day. Reviewing previous meeting information, collecting context, and tracking unfinished action items can take a lot of time. After each meeting, users also need to write notes, summarize important decisions, and send follow-up emails or messages to relevant members. As the number of meetings increases, managing information becomes more difficult and important tasks can easily be missed.
 
 In the AWS and Cisco blog post, the authors introduce a solution that uses Amazon Q as the central AI assistant. Users can ask natural language questions such as "Prepare me for tomorrow's meeting" or "Summarize last week's meeting". Amazon Q analyzes the request and then uses Model Context Protocol (MCP) to access data from Cisco Webex services.

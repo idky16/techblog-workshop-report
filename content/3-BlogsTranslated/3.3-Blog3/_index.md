@@ -14,6 +14,8 @@ Today I would like to share an interesting article from the AWS Industries Blog 
 
 {{< content-image src="images/3-BlogsPosted/725904867_3853524508288501_6898272658705177036_n.jpg" alt="Amazon Bedrock AgentCore Multi-Agent architecture for financial services on Amazon EKS" >}}
 
+{{< content-image src="images/3-BlogsPosted/b2.jpg" alt="Facebook post about an Amazon Bedrock AgentCore Multi-Agent system for financial services" >}}
+
 In financial institutions, a customer request rarely requires only one specialist. For example, when a customer wants to evaluate an investment portfolio, the system may need to combine multiple types of expertise such as market analysis, risk assessment, investment advisory, and financial data retrieval. If all tasks are handled by a single AI Agent, the system's capability can be limited and the quality of the answer may not reach the expected accuracy.
 
 To address this challenge, AWS experts introduced a Multi-Agent architecture in which each AI Agent takes a specialized role and collaborates with other agents to complete the user's request.

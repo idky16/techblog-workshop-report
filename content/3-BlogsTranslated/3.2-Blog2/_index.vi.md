@@ -12,6 +12,8 @@ Khi nhắc đến truy cập từ xa vào hệ thống nội bộ, đa số chú
 
 {{< content-image src="images/3-BlogsPosted/726261910_2233973207438101_1157835197418497774_n.jpg" alt="AWS Verified Access và AWS Network Firewall - kiến trúc Zero Trust thay thế VPN truyền thống" >}}
 
+{{< content-image src="images/3-BlogsPosted/b3.jpg" alt="Bài đăng Facebook về kiến trúc Zero Trust sử dụng AWS Verified Access và AWS Network Firewall" >}}
+
 Trong một bài viết gần đây trên AWS Networking & Content Delivery Blog, các chuyên gia AWS đã giới thiệu cách kết hợp AWS Verified Access và AWS Network Firewall để xây dựng kiến trúc Zero Trust, giúp kiểm soát truy cập theo đúng nguyên tắc "Never Trust, Always Verify". Sau khi đọc bài viết, mình thấy đây là một giải pháp khá hay nên muốn chia sẻ lại những nội dung nổi bật đến mọi người.
 
 Trong nhiều năm qua, VPN gần như là giải pháp mặc định để nhân viên truy cập vào hệ thống nội bộ khi làm việc từ xa. Tuy nhiên, sau khi người dùng đăng nhập thành công, VPN thường cấp quyền truy cập vào một phạm vi mạng khá rộng. Điều này làm tăng bề mặt tấn công và khiến doanh nghiệp khó kiểm soát chính xác người dùng đang được phép truy cập tài nguyên nào.

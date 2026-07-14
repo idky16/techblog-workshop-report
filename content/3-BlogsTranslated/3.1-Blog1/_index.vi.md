@@ -14,6 +14,8 @@ Hôm nay mình xin chia sẻ một giải pháp khá thú vị trong quá trình
 
 {{< content-image src="images/3-BlogsPosted/ML-21199-1.png" alt="Amazon Q và Cisco Webex MCP Servers - kiến trúc trợ lý chuẩn bị và tổng kết cuộc họp" >}}
 
+{{< content-image src="images/3-BlogsPosted/b1.jpg" alt="Bài đăng Facebook về trợ lý cuộc họp Amazon Q và Cisco Webex MCP Servers" >}}
+
 Trong môi trường doanh nghiệp hiện nay, nhân viên thường phải tham gia nhiều cuộc họp mỗi ngày. Việc xem lại thông tin, nội dung từ các cuộc họp trước, tổng hợp những đầu việc còn tồn đọng thường tốn khá nhiều thời gian. Bên cạnh đó, sau mỗi cuộc họp, người dùng còn phải ghi chú, tổng hợp các quyết định quan trọng, gửi email hoặc tin nhắn cho các thành viên liên quan. Khi số lượng cuộc họp ngày càng tăng, việc quản lý thông tin trở nên khó khăn và rất dễ bỏ sót các nhiệm vụ quan trọng.
 
 Trong bài viết, các chuyên gia của AWS và Cisco giới thiệu một giải pháp sử dụng Amazon Q làm trợ lý AI trung tâm. Người dùng chỉ cần đặt câu hỏi bằng ngôn ngữ tự nhiên như "Hãy chuẩn bị cho cuộc họp ngày mai" hoặc "Tóm tắt nội dung cuộc họp tuần trước". Amazon Q sẽ phân tích yêu cầu, sau đó sử dụng giao thức Model Context Protocol (MCP) để truy cập dữ liệu từ các dịch vụ Cisco Webex.
