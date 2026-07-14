@@ -76,7 +76,7 @@ Attending this Community Sharing Day was a refreshing mix of technical and perso
 - The lighter session on **Vietnamese astrology** and the **confidence** talk added good variety and made the day feel balanced rather than purely technical.
 
 #### Some event photos
-![Image proof](/techblog-workshop-report/static/images/4-EventParticipated/Event01-01.JPG)
-![Image proof](/techblog-workshop-report/static/images/4-EventParticipated/Event01-02.JPG)
+![Image proof](/techblog-workshop-report/images/4-EventParticipated/Event01-01.JPG)
+![Image proof](/techblog-workshop-report/images/4-EventParticipated/Event01-02.JPG)
 
 > Overall, this event combined technical inspiration (Cloud Quest, DevOps thinking) with personal growth (confidence, procrastination) and a fun, human side (the hackathon story, the astrology talk) - making it one of the more well-rounded events I attended during the internship.
