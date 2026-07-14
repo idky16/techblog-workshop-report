@@ -19,22 +19,30 @@
   }
 </style>
 <div class="ghContributors">
-  {{ $url := .Get 0 }} {{ range getJSON $url }}
+  {{ $url := .Get 0 }}
+  {{ $contributors := slice }}
+  {{ with resources.GetRemote $url }}
+    {{ with .Err }}
+      {{ warnf "Unable to fetch contributors from %s: %v" $url . }}
+    {{ else }}
+      {{ $contributors = .Content | transform.Unmarshal }}
+    {{ end }}
+  {{ end }}
+  {{ range $contributors }}
   <div>
     <img
-      src="{{.avatar_url}}"
+      src="{{ .avatar_url }}"
       class="inline"
       width="32"
       height="32"
       style="
         height: 32px;
-        height: 32px;
         margin-bottom: 0.25em;
         vertical-align: middle;
       "
     />
-    <label><a href="{{.html_url}}">@{{.login}}</a></label>
-    <span class="contributions">{{.contributions}} commits</span>
+    <label><a href="{{ .html_url }}">@{{ .login }}</a></label>
+    <span class="contributions">{{ .contributions }} commits</span>
   </div>
   {{ end }}
 </div>
