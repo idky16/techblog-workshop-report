@@ -1,102 +1,82 @@
 ---
-title: "AWS & Swinburne Vietnam Cloud Computing Study Tour"
-date: 2024-01-01
+title: "Event 1"
+date: 2026-05-30
 weight: 1
 chapter: false
 pre: " <b> 4.1. </b> "
 ---
 
-# Summary Report: "AWS & Swinburne Vietnam Cloud Computing Study Tour and Industry Insights" (Online)
-
-### Event Information
-
-&emsp;**Event Name:** AWS & Swinburne Vietnam Cloud Computing Study Tour and Industry Insights
-
-&emsp;**Format:** Knowledge-sharing session between Swinburne Vietnam students, industry experts, and AWS representatives; online livestream
-
-&emsp;**Date:** July 4, 2026
-
-&emsp;**Role:** Online attendee (YouTube livestream)
-
-&emsp;**Audience:** Swinburne Vietnam students, IT professionals, and cloud practitioners
+# Summary Report: "Community Sharing Day"
 
 ### Event Objectives
 
-- Share information about the cloud job market, development trends, and AWS investments in Vietnam.
-- Bridge the gap between academic learning and real-world data engineering.
-- Help students and early-career professionals build the mindset, soft skills, and career strategy needed in IT.
-- Emphasize the role of community, lifelong learning, and visibility in career development.
+- Help students and interns level up their AWS skills through gamified learning (Cloud Quest).
+- Share real hackathon experiences, including the practical (and exhausting) side of building something under time pressure.
+- Build soft skills such as confidence, communication and overcoming procrastination.
+- Share a lighter, cultural/entertainment topic to balance out the technical sessions.
+- Discuss the operational/DevOps risks hiding behind a project that looks fine on the surface.
 
 ### Speakers
 
-- **Quynh Mai and Nguyen Tran Minh Duy** (Industry Lead Officer) - Introduction to the AWS-Swinburne partnership and the purpose of the study tour.
-- **Nguyen Gia Hung** (Head of Solution Architect, AWS Vietnam) - Cloud job market, challenges, trends, and AWS investments in Vietnam.
-- **Banh Cam Vinh** (Data Engineer, Renova Cloud) - Differences between academic learning and practical data engineering.
-- **Nhu Tran** (AWS Account Manager) - Overcoming fear, improving communication skills, and capturing career opportunities.
-- **Khang Nguyen** (Solution Architect, Cloud Kinetics & Swinburne alumnus) - AI integration, practical career advice, mindset development, and persistence.
+- **Huynh Thai Linh** - "Level Up Your AWS Skills with Cloud Quest and Floci"
+- **The Ballers team** (Huynh An Khuong, Mai Quoc Anh, Nguyen Tran Minh Quan) - Hackathon retrospective
+- **Nguyen Thi Quynh Nhu** - "Why We Always Need Confidence"
+- **Nghia Tran** - "Tử Vi Đại Việt" (Vietnamese astrology / horoscope topic)
+- **Tran Minh Quan** - "The Hidden Iceberg of a Project: DevOps Before Disaster"
+- **Khac Uy Pham** - "The Iceberg of Procrastination"
 
 ### Key Highlights
 
-#### Nguyen Gia Hung - Cloud job market and AWS investment in Vietnam
+#### Level Up Your AWS Skills with Cloud Quest and Floci
+- Introduced **AWS Cloud Quest** as a gamified way to practice real AWS skills (compute, storage, databases, security) instead of just reading documentation.
+- Encouraged using community tools/platforms (Floci) to track learning progress and stay motivated.
 
-The cloud market in Vietnam, especially AWS, has grown significantly in recent years, while traditional data centers have declined. The Cloud First strategy is becoming dominant among large enterprises.
+#### Hackathon Retrospective - "The Ballers"
+- A candid, humorous recap of a hackathon experience: "tons of fun and bug fixes and back pains and sleep deprivation."
+- Highlighted the real cost of building something fast: long debugging sessions, late nights and physical fatigue - alongside the excitement of shipping something working.
 
-AWS is investing strongly in local talent development and infrastructure such as CDN nodes and low-latency Local Zones. Building an AWS Region in Vietnam would require very large investment and a long payback period, showing AWS's long-term commitment to the Vietnamese market.
+#### Why We Always Need Confidence
+- Confidence was presented as a "must-have," not a "nice-to-have," for career growth, campus life and everyday interactions.
+- Discussed how lack of confidence can hold people back from speaking up, applying for opportunities, or presenting their work.
 
-Talent hubs have been established in major cities such as Ho Chi Minh City, Hanoi, and Da Nang, with many international companies operating IT centers in Vietnam. Internship and junior roles now require skills such as Kubernetes, cloud-native architecture, and foundational cloud knowledge.
+#### Tử Vi Đại Việt - Decoding Destiny
+- A lighter, cultural session on Vietnamese astrology, exploring how people relate personality traits and life events to star signs/zodiac concepts.
+- Served as an entertaining break between the more technical and career-focused sessions.
 
-Career growth was described through three pillars: skills, visibility, and consistency. Many jobs are not publicly posted and are filled through internal referrals or community networks, so networking and community participation are very important.
+#### The Hidden Iceberg of a Project: DevOps Before Disaster
+- Used the "iceberg" metaphor: visible symptoms above the surface (missed deadlines, production bugs, failed deployments, customer complaints, team burnout) are usually caused by deeper, hidden problems below the surface (poor processes, lack of automation, weak monitoring).
+- Argued that addressing only the visible symptoms without fixing the underlying DevOps practices leads to the same issues recurring.
 
-#### Banh Cam Vinh - Academic learning vs real-world data engineering
-
-Academic projects usually use clean data, small scale, and flexible timelines, while real-world work requires handling messy data, constantly changing requirements, and direct business impact.
-
-Skills such as data quality assurance, error handling, security, and cross-functional collaboration are very important in real projects but are not always emphasized in university programs. Technical fundamentals such as databases, programming, algorithms, distributed systems, and APIs remain essential for both interviews and daily work.
-
-#### Nhu Tran - Overcoming fear and soft skills
-
-Recognizing and overcoming fear of failure, public speaking, and miscommunication is essential for career development. Proactive communication with managers and colleagues helps improve working relationships and increases visibility in the organization.
-
-The speaker also emphasized self-awareness, emotional intelligence, and resilience as core factors for long-term career success.
-
-#### Khang Nguyen - AI, career mindset, and persistence
-
-University education provides a strong foundation, but it is not enough to be fully industry-ready. AI tools such as coding assistants and diagram generators have become important parts of modern workflows, but they still require critical thinking and verification skills.
-
-The hiring priority shared in the session was attitude, skills, experience, and personal traits. Key success factors include asking deep questions, maintaining a growth mindset, collaborating across disciplines, and sustaining long-term effort.
+#### The Iceberg of Procrastination
+- Reframed procrastination not simply as "laziness," but as the visible tip of an iceberg whose real causes are often **fear** - fear of failure, fear of judgment, or fear of not being good enough.
+- Encouraged identifying the real underlying fear instead of just trying to "force discipline."
 
 ### Key Takeaways
 
-- The cloud market in Vietnam is growing strongly, creating high demand for cloud professionals with practical skills.
-- Academic learning and real-world work are fundamentally different: real projects involve messy data, changing requirements, business risks, and cross-functional dependencies.
-- Networking and community participation are not optional, because many career opportunities are filled through referrals and community connections.
-- AI is a tool, not a replacement for thinking. Using AI effectively must go together with strong fundamentals and critical judgment.
-- Career success requires skills, visibility, and consistency. Technical skills alone are not enough without presence and sustained effort over time.
-- Soft skills such as communication, self-awareness, and resilience are as important as technical skills.
+- **Practice beats theory**: gamified platforms like AWS Cloud Quest make technical learning more engaging and memorable than passive reading.
+- **Hackathons are valuable precisely because they are messy** - the bugs, the exhaustion and the deadline pressure are part of what builds real problem-solving skills.
+- **Soft skills matter as much as technical skills**: confidence and the ability to manage procrastination/fear directly affect how well technical knowledge gets applied and shared.
+- **Symptoms vs. root causes**: in both DevOps and personal productivity, what's visible (bugs, burnout, procrastination) is rarely the real problem - the real problem is usually hidden underneath.
 
-### Application to Work
+### Applying to Work
 
-Nguyen Gia Hung is my internship mentor at AWS Vietnam, so hearing his broader perspective on the cloud market and career development strategy added meaningful depth to what I am experiencing directly in the FCAJ program.
-
-The First Cloud AI Journey community mentioned throughout the session is the same program I am participating in, making the career development framework of "Skills x Visibility x Consistency" immediately applicable to my current situation.
-
-The gap between academic projects and real engineering described by Banh Cam Vinh closely reflects what I experienced in the EAM Workspace project, especially the importance of consistent seed data, handling migration conflicts, and collaborating across branches.
-
-Nhu Tran's advice about overcoming communication fear directly relates to preparing for my final internship presentation. Khang Nguyen's hiring priority framework is also useful for self-assessment as I prepare to apply for full-time roles after graduation.
+- Try **AWS Cloud Quest** as a way to reinforce AWS concepts learned during the internship in a more hands-on, gamified format.
+- When facing a tight deadline (like the team's EAM Workspace demo prep), expect some "hackathon-style" pain (bugs, late merges) and plan buffer time for it rather than being surprised by it.
+- Apply the "iceberg" mindset to the team project: when QA finds recurring bugs, look for the underlying process issue (e.g., lack of a shared seed-data source, inconsistent merge habits) instead of just patching the symptom each time.
+- Use the confidence and procrastination insights when preparing for the final presentation: focus on identifying what specifically feels intimidating about presenting and prepare against that specific fear rather than generic "just be confident" advice.
 
 ### Event Experience
 
-This session was especially meaningful because Nguyen Gia Hung, my internship mentor, was one of the main speakers. Hearing his industry-level perspective on the cloud market, AWS's long-term commitment in Vietnam, and career development strategy made the content more authentic and personally relevant.
+Attending this Community Sharing Day was a refreshing mix of technical and personal-growth content. Some highlights of my experience:
 
-Some reflections from the event:
+- The **Cloud Quest** session gave me a more practical way to think about reinforcing what I was already learning through the FCAJ program - gamified practice felt more memorable than just reading documentation.
+- The **hackathon retrospective** from "The Ballers" was both funny and relatable; it reminded me that the exhaustion and bugs that come with the EAM Workspace project crunch weeks are a normal part of building something real, not a sign that something is going wrong.
+- The **DevOps iceberg** talk gave me a clearer way to explain, to myself and to teammates, why some bugs kept resurfacing in our project even after a quick fix - the real cause was usually a process gap, not a one-off mistake.
+- The **procrastination iceberg** talk was personally useful, helping me notice when I was putting off a task out of actual fear of getting it wrong, rather than just "being lazy," which changed how I approached fixing it.
+- The lighter session on **Vietnamese astrology** and the **confidence** talk added good variety and made the day feel balanced rather than purely technical.
 
-- The point that many jobs are filled through networks rather than public job boards changed how I view communities such as FCAJ and AWS Study Group.
-- Banh Cam Vinh's data engineering section confirmed what I felt in the EAM Workspace project: the gap between "working in theory" and "working in production with real data and business constraints" is very large.
-- Nhu Tran's section on overcoming fear helped me reframe hesitation in group communication as an area I need to improve.
-- Khang Nguyen's journey from Swinburne student to Solution Architect at a cloud company shows a concrete and practical path for students pursuing cloud careers.
+#### Some event photos
+![Image proof](/images/4-EventParticipated/Event01-01.JPG)
+![Image proof](/images/4-EventParticipated/Event01-02.JPG)
 
-### Screenshots from the Event
-
-{{< content-image src="images/4-EventParticipated/event1-cloud-study-tour.png" alt="AWS & Swinburne Vietnam Cloud Computing Study Tour livestream screenshot" >}}
-
-Overall, this event provided a comprehensive, honest, and practical perspective on what it takes to build a cloud career in Vietnam, combining market data, engineering reality, soft-skill development, and career strategy.
+> Overall, this event combined technical inspiration (Cloud Quest, DevOps thinking) with personal growth (confidence, procrastination) and a fun, human side (the hackathon story, the astrology talk) - making it one of the more well-rounded events I attended during the internship.

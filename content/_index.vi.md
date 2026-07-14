@@ -7,11 +7,11 @@ chapter: false
 
 # Báo cáo thực tập
 ### Thông tin sinh viên:
-&emsp; **Họ và tên:** Le Minh Tien
+&emsp; **Họ và tên:** Nguyễn Lưu Trọng Phước
 
-&emsp; **Số điện thoại:** 0353355371
+&emsp; **Số điện thoại:** 0777190821
 
-&emsp; **Email:** tien882004@gmail.com
+&emsp; **Email:** 99.nguyenluutrongphuoc@gmail.com
 
 &emsp; **Trường:** Trường Đại học Công nghệ Thành phố Hồ Chí Minh
 
@@ -25,7 +25,7 @@ chapter: false
 
 &emsp; **Thời gian thực tập:** Từ ngày 20/04/2026 đến ngày 10/07/2026
 
-{{< profile-image src="images/avatar-le-minh-tien.jpg" alt="Ảnh đại diện Le Minh Tien" >}}
+{{< profile-image src="images/MyAvatar.png" alt="Ảnh đại diện Nguyễn Lưu Trọng Phước" >}}
 
 
 

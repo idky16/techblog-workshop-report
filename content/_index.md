@@ -9,11 +9,11 @@ chapter: false
 # Internship Report
 
 ### Student Information:
-&emsp; **Full Name:** Le Minh Tien
+&emsp; **Full Name:** Nguyen Luu Trong Phuoc
 
-&emsp; **Phone Number:** 0353355371 
+&emsp; **Phone Number:** 0777190821
 
-&emsp; **Email:** tien882004@gmail.com
+&emsp; **Email:** 99.nguyenluutrongphuoc@gmail.com
 
 &emsp; **University:** <span translate="no">HUTECH - Trường Đại học Công nghệ Thành phố Hồ Chí Minh</span>
 
@@ -27,7 +27,7 @@ chapter: false
 
 &emsp; **Internship Duration:** From 20/04/2026 to 10/07/2026
 
-{{< profile-image src="images/avatar-le-minh-tien.jpg" alt="Le Minh Tien profile picture" >}}
+{{< profile-image src="images/MyAvatar.png" alt="Nguyen Luu Trong Phuoc profile picture" >}}
 
 ### Report Content
 

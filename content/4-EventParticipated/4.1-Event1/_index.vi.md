@@ -1,102 +1,82 @@
 ---
-title: "AWS & Swinburne Vietnam Cloud Computing Study Tour"
-date: 2024-01-01
+title: "Event 1"
+date: 2026-05-30
 weight: 1
 chapter: false
 pre: " <b> 4.1. </b> "
 ---
 
-# Bài thu hoạch "AWS & Swinburne Vietnam Cloud Computing Study Tour và Industry Insights" (Trực tuyến)
-
-### Thông tin sự kiện
-
-&emsp;**Tên sự kiện:** AWS & Swinburne Vietnam Cloud Computing Study Tour và Industry Insights
-
-&emsp;**Hình thức:** Buổi chia sẻ kiến thức giữa sinh viên Swinburne Vietnam, các chuyên gia trong ngành và đại diện AWS; livestream trực tuyến
-
-&emsp;**Thời gian:** 04/07/2026
-
-&emsp;**Vai trò:** Người tham dự trực tuyến (YouTube livestream)
-
-&emsp;**Đối tượng tham dự:** Sinh viên Swinburne Vietnam, chuyên gia IT và cloud practitioner
+# Bài thu hoạch "Community Sharing Day"
 
 ### Mục đích của sự kiện
 
-- Chia sẻ thông tin về thị trường việc làm cloud, xu hướng phát triển và các khoản đầu tư của AWS tại Việt Nam.
-- Thu hẹp khoảng cách giữa học thuật và data engineering trong thực tế.
-- Giúp sinh viên và người mới đi làm xây dựng tư duy, kỹ năng mềm và chiến lược nghề nghiệp phù hợp với ngành IT.
-- Nhấn mạnh vai trò của cộng đồng, học tập suốt đời và visibility trong sự phát triển nghề nghiệp.
+- Giúp sinh viên và thực tập sinh nâng cao kỹ năng AWS thông qua hình thức học gamified (Cloud Quest).
+- Chia sẻ trải nghiệm hackathon thực tế, kể cả khía cạnh vất vả (và mệt mỏi) khi xây dựng sản phẩm dưới áp lực thời gian.
+- Rèn luyện kỹ năng mềm như sự tự tin, giao tiếp và vượt qua sự trì hoãn.
+- Chia sẻ một chủ đề nhẹ nhàng, mang tính giải trí/văn hóa để cân bằng với các phần kỹ thuật.
+- Trao đổi về những rủi ro vận hành/DevOps ẩn sau một dự án trông có vẻ ổn trên bề mặt.
 
 ### Danh sách diễn giả
 
-- **Quỳnh Mai và Nguyễn Trần Minh Duy** (Industry Lead Officer) - Giới thiệu về quan hệ đối tác AWS-Swinburne và mục đích của study tour.
-- **Nguyễn Gia Hưng** (Head of Solution Architect, AWS Vietnam) - Thị trường việc làm cloud, thách thức, xu hướng và các khoản đầu tư của AWS tại Việt Nam.
-- **Bành Cẩm Vĩnh** (Data Engineer, Renova Cloud) - Sự khác biệt giữa học thuật và data engineering trong thực tế.
-- **Như Trần** (AWS Account Manager) - Vượt qua nỗi sợ, nâng cao kỹ năng giao tiếp và nắm bắt cơ hội nghề nghiệp.
-- **Khang Nguyễn** (Solution Architect, Cloud Kinetics & cựu sinh viên Swinburne) - Tích hợp AI, lời khuyên nghề nghiệp thực tế, phát triển tư duy và tính kiên trì.
+- **Huynh Thai Linh** - "Level Up Your AWS Skills with Cloud Quest and Floci"
+- **Nhóm The Ballers** (Huynh An Khuong, Mai Quoc Anh, Nguyen Tran Minh Quan) - Chia sẻ hậu trường hackathon
+- **Nguyen Thi Quynh Nhu** - "Why We Always Need Confidence"
+- **Nghia Tran** - "Tử Vi Đại Việt" (chủ đề về tử vi/chiêm tinh)
+- **Tran Minh Quan** - "The Hidden Iceberg of a Project: DevOps Before Disaster"
+- **Khac Uy Pham** - "The Iceberg of Procrastination"
 
 ### Nội dung nổi bật
 
-#### Nguyễn Gia Hưng - Thị trường việc làm cloud và đầu tư của AWS tại Việt Nam
+#### Level Up Your AWS Skills with Cloud Quest and Floci
+- Giới thiệu **AWS Cloud Quest** như một cách học gamified để thực hành kỹ năng AWS thực tế (compute, storage, database, security) thay vì chỉ đọc tài liệu.
+- Khuyến khích sử dụng các nền tảng/công cụ cộng đồng (Floci) để theo dõi tiến độ học và duy trì động lực.
 
-Thị trường cloud tại Việt Nam, đặc biệt là AWS, đã tăng trưởng gần 20 lần trong 6 năm, trong khi các trung tâm dữ liệu truyền thống giảm 10 lần. Chiến lược Cloud First hiện đang chiếm ưu thế trong các doanh nghiệp lớn.
+#### Hậu trường Hackathon - "The Ballers"
+- Một bài chia sẻ thật và hài hước về trải nghiệm hackathon: "tons of fun and bug fixes and back pains and sleep deprivation" (rất nhiều niềm vui, fix bug, đau lưng và thiếu ngủ).
+- Nêu bật chi phí thực sự của việc xây dựng sản phẩm nhanh: những phiên debug dài, đêm khuya và mệt mỏi thể chất - song song với sự hào hứng khi sản phẩm chạy được.
 
-AWS đầu tư mạnh vào phát triển nhân tài địa phương và hạ tầng như CDN nodes, Local Zones độ trễ thấp. Việc xây dựng AWS Region tại Việt Nam ước tính cần mức đầu tư rất lớn và thời gian hoàn vốn dài, thể hiện cam kết dài hạn đối với thị trường Việt Nam.
+#### Why We Always Need Confidence
+- Sự tự tin được trình bày như một yếu tố "bắt buộc phải có", không phải "có thì tốt", cho sự nghiệp, đời sống sinh viên và các tương tác hằng ngày.
+- Trao đổi về việc thiếu tự tin có thể khiến người ta e ngại phát biểu, ứng tuyển cơ hội, hoặc trình bày sản phẩm của mình.
 
-Các talent hub đã được thiết lập tại các thành phố lớn như TP.HCM, Hà Nội và Đà Nẵng, với nhiều công ty quốc tế lớn vận hành trung tâm IT tại Việt Nam. Vị trí thực tập và junior hiện đòi hỏi kỹ năng như Kubernetes, kiến trúc cloud-native và hiểu biết nền tảng về cloud.
+#### Tử Vi Đại Việt - Giải mã vận mệnh
+- Một phần nội dung nhẹ nhàng, mang tính văn hóa về tử vi, tìm hiểu cách mọi người liên hệ tính cách và các sự kiện trong đời với các khái niệm chòm sao/con giáp.
+- Đóng vai trò như một phần giải trí, giúp ngày sự kiện cân bằng hơn giữa các nội dung kỹ thuật và hướng nghiệp.
 
-Sự nghiệp phát triển dựa trên ba trụ cột: năng lực, visibility và tính nhất quán. Khoảng 90% vị trí việc làm không được đăng công khai mà được lấp đầy qua mạng lưới giới thiệu nội bộ hoặc cộng đồng, vì vậy networking và tham gia cộng đồng là điều rất quan trọng.
+#### The Hidden Iceberg of a Project: DevOps Before Disaster
+- Sử dụng ẩn dụ "tảng băng": các triệu chứng nhìn thấy trên mặt nước (trễ deadline, bug ở production, deploy lỗi, khách hàng phàn nàn, team burnout) thường xuất phát từ những vấn đề ẩn sâu hơn (quy trình kém, thiếu tự động hóa, giám sát yếu).
+- Lập luận rằng chỉ xử lý các triệu chứng bên ngoài mà không sửa các thực hành DevOps bên dưới sẽ khiến vấn đề lặp lại.
 
-#### Bành Cẩm Vĩnh - Học thuật vs Data Engineering thực tế
-
-Dự án học thuật thường dùng dữ liệu sạch, quy mô nhỏ và timeline linh hoạt, trong khi công việc thực tế đòi hỏi xử lý dữ liệu lộn xộn, yêu cầu thay đổi liên tục và ảnh hưởng trực tiếp đến kinh doanh.
-
-Các kỹ năng như đảm bảo chất lượng dữ liệu, xử lý lỗi, bảo mật và cộng tác liên phòng ban rất quan trọng trong thực tế nhưng hiếm khi được nhấn mạnh trong chương trình đại học. Kiến thức nền tảng về database, lập trình, thuật toán, distributed systems và API vẫn thiết yếu cho cả phỏng vấn lẫn công việc hàng ngày.
-
-#### Như Trần - Vượt qua nỗi sợ và kỹ năng mềm
-
-Việc nhận diện và vượt qua nỗi sợ thất bại, nói trước đám đông và giao tiếp sai là điều thiết yếu để phát triển nghề nghiệp. Chủ động trao đổi với sếp và đồng nghiệp giúp cải thiện quan hệ làm việc, đồng thời tăng visibility trong tổ chức.
-
-Diễn giả cũng nhấn mạnh tự nhận thức, trí tuệ cảm xúc và khả năng phục hồi là các yếu tố cốt lõi dẫn đến thành công trong sự nghiệp.
-
-#### Khang Nguyễn - AI, tư duy nghề nghiệp và kiên trì
-
-Chương trình học đại học là nền tảng vững chắc nhưng chưa đủ để sẵn sàng cho ngành. Công cụ AI như coding assistant hoặc diagram generator đã trở thành một phần quan trọng trong workflow hiện đại, nhưng vẫn đòi hỏi tư duy phản biện và kỹ năng kiểm chứng.
-
-Thứ tự ưu tiên khi tuyển dụng được chia sẻ là: thái độ, kỹ năng, kinh nghiệm và đặc điểm cá nhân. Các yếu tố thành công chính gồm đặt câu hỏi sâu sắc, duy trì growth mindset, cộng tác hiệu quả liên ngành và nỗ lực bền vững.
+#### The Iceberg of Procrastination
+- Diễn giải lại sự trì hoãn không đơn giản là "lười biếng", mà là phần nổi của tảng băng mà nguyên nhân thực sự thường là **sợ hãi** - sợ thất bại, sợ bị đánh giá, hoặc sợ mình không đủ tốt.
+- Khuyến khích nhận diện đúng nỗi sợ bên dưới thay vì chỉ cố "ép buộc bản thân kỷ luật".
 
 ### Những gì học được
 
-- Thị trường cloud tại Việt Nam đang tăng trưởng mạnh, tạo ra nhu cầu lớn cho các cloud professional có kỹ năng thực tế.
-- Học thuật và công việc thực tế là hai môi trường khác nhau căn bản: dự án thực có dữ liệu lộn xộn, yêu cầu thay đổi liên tục, rủi ro kinh doanh và phụ thuộc liên phòng ban.
-- Networking và tham gia cộng đồng không phải là tùy chọn, vì nhiều cơ hội nghề nghiệp được lấp đầy qua mạng lưới giới thiệu.
-- AI là công cụ hỗ trợ, không phải sự thay thế cho tư duy. Thành thạo công cụ AI cần đi cùng nền tảng vững chắc và khả năng đánh giá phản biện.
-- Thành công trong sự nghiệp cần kết hợp năng lực, visibility và tính nhất quán. Kỹ năng kỹ thuật đơn thuần là chưa đủ nếu không có sự hiện diện và nỗ lực bền vững.
-- Kỹ năng mềm như giao tiếp, tự nhận thức và khả năng phục hồi quan trọng không kém kỹ năng kỹ thuật.
+- **Thực hành tốt hơn lý thuyết**: các nền tảng gamified như AWS Cloud Quest giúp việc học kỹ thuật thú vị và dễ nhớ hơn so với đọc tài liệu thông thường.
+- **Hackathon có giá trị chính vì nó "bừa bộn"** - bug, mệt mỏi và áp lực deadline là một phần giúp xây dựng kỹ năng giải quyết vấn đề thực sự.
+- **Kỹ năng mềm quan trọng không kém kỹ năng kỹ thuật**: sự tự tin và khả năng quản lý sự trì hoãn/nỗi sợ ảnh hưởng trực tiếp đến việc áp dụng và chia sẻ kiến thức kỹ thuật.
+- **Triệu chứng khác với nguyên nhân gốc**: trong cả DevOps và năng suất cá nhân, những gì nhìn thấy (bug, burnout, trì hoãn) hiếm khi là vấn đề thực sự - vấn đề thực sự thường ẩn bên dưới.
 
 ### Ứng dụng vào công việc
 
-Anh Nguyễn Gia Hưng là mentor thực tập của mình tại AWS Vietnam, nên việc được nghe góc nhìn rộng hơn của anh về thị trường cloud và chiến lược phát triển nghề nghiệp giúp mình hiểu sâu hơn những gì đang trải nghiệm trực tiếp trong chương trình FCAJ.
-
-Cộng đồng First Cloud AI Journey được nhắc đến xuyên suốt buổi này chính là chương trình mình đang tham gia, khiến framework phát triển nghề nghiệp "Năng lực x Visibility x Tính nhất quán" trở nên áp dụng được ngay vào tình huống hiện tại.
-
-Khoảng cách giữa dự án học thuật và kỹ thuật thực tế mà anh Bành Cẩm Vĩnh mô tả phản ánh đúng những gì mình trải qua trong dự án EAM Workspace, đặc biệt là tầm quan trọng của tính nhất quán seed data, xử lý migration conflict và cộng tác liên nhánh.
-
-Lời khuyên của chị Như Trần về việc vượt qua nỗi sợ giao tiếp liên quan trực tiếp đến việc chuẩn bị cho buổi báo cáo thực tập cuối kỳ. Thứ bậc ưu tiên của anh Khang Nguyễn cũng là một framework tự đánh giá hữu ích khi mình chuẩn bị ứng tuyển việc làm toàn thời gian sau khi tốt nghiệp.
+- Thử dùng **AWS Cloud Quest** như một cách củng cố các kiến thức AWS đã học trong chương trình FCAJ theo hướng thực hành, gamified hơn.
+- Khi đối mặt với deadline gấp (như giai đoạn chuẩn bị demo cho EAM Workspace), nên dự đoán sẽ có những vấn đề kiểu "hackathon" (bug, merge muộn) và chuẩn bị thời gian dự phòng thay vì bị bất ngờ.
+- Áp dụng tư duy "tảng băng" vào dự án nhóm: khi QA phát hiện bug lặp lại, tìm nguyên nhân quy trình bên dưới (ví dụ: thiếu một nguồn seed data chung, thói quen merge không nhất quán) thay vì chỉ vá lỗi từng lần.
+- Vận dụng các bài học về sự tự tin và trì hoãn khi chuẩn bị cho buổi báo cáo cuối kỳ: xác định cụ thể điều gì khiến mình lo lắng khi trình bày, và chuẩn bị đối phó với nỗi sợ cụ thể đó thay vì chỉ nghe lời khuyên chung "cứ tự tin lên".
 
 ### Trải nghiệm trong sự kiện
 
-Buổi này đặc biệt có ý nghĩa vì anh Nguyễn Gia Hưng, mentor thực tập của mình, là một trong những diễn giả chính. Được nghe góc nhìn cấp ngành của anh về thị trường cloud, cam kết dài hạn của AWS tại Việt Nam và chiến lược phát triển nghề nghiệp giúp nội dung trở nên chân thực và mang tính cá nhân hơn.
+Tham gia Community Sharing Day là một sự kết hợp thú vị giữa nội dung kỹ thuật và phát triển bản thân. Một số điều mình rút ra:
 
-Một vài điều mình suy nghĩ:
+- Phần **Cloud Quest** cho mình một cách thực tế hơn để củng cố những gì đang học trong chương trình FCAJ - học qua gamified dễ nhớ hơn là chỉ đọc tài liệu.
+- Phần chia sẻ hậu trường hackathon của **"The Ballers"** vừa hài hước vừa dễ đồng cảm; nó nhắc mình rằng sự mệt mỏi và bug xảy ra trong những tuần "crunch" của dự án EAM Workspace là điều bình thường khi xây dựng sản phẩm thật, không phải dấu hiệu có gì sai.
+- Phần **DevOps iceberg** giúp mình có cách giải thích rõ ràng hơn, cho bản thân và đồng đội, vì sao một số bug cứ lặp lại trong dự án dù đã fix nhanh - nguyên nhân thường là lỗ hổng quy trình, không phải một lỗi đơn lẻ.
+- Phần **procrastination iceberg** rất hữu ích cá nhân, giúp mình nhận ra khi nào mình trì hoãn vì thực sự sợ làm sai, thay vì chỉ "lười", và điều đó thay đổi cách mình xử lý vấn đề.
+- Phần nhẹ nhàng về **tử vi** và phần **sự tự tin** mang lại sự đa dạng tốt, giúp cả ngày sự kiện cân bằng hơn chứ không chỉ thuần kỹ thuật.
 
-- Việc nhiều công việc được lấp đầy qua mạng lưới, không phải bảng tuyển dụng công khai, thay đổi cách mình nhìn nhận giá trị của cộng đồng như FCAJ và AWS Study Group.
-- Phần data engineering của anh Bành Cẩm Vĩnh xác nhận điều mình đã cảm nhận trong dự án EAM Workspace: khoảng cách giữa "chạy được trong lý thuyết" và "chạy được trong môi trường production với dữ liệu thật và ràng buộc kinh doanh thật" là rất lớn.
-- Phần của chị Như Trần về việc vượt qua nỗi sợ giúp mình nhìn lại sự do dự khi lên tiếng trong môi trường nhóm như một vấn đề cần cải thiện.
-- Hành trình của anh Khang Nguyễn từ sinh viên Swinburne đến Solution Architect tại một công ty cloud cho thấy một con đường cụ thể và thực tế cho sinh viên theo đuổi lĩnh vực cloud.
+#### Một số hình ảnh khi tham gia sự kiện
+![Hình ảnh chứng minh](/images/4-EventParticipated/Event01-01.JPG)
+![Hình ảnh chứng minh](/images/4-EventParticipated/Event01-02.JPG)
 
-### Một số ảnh chụp màn hình khi tham gia sự kiện
-
-{{< content-image src="images/4-EventParticipated/event1-cloud-study-tour.png" alt="AWS & Swinburne Vietnam Cloud Computing Study Tour - livestream screenshot" >}}
-
-Tổng thể, sự kiện này mang đến góc nhìn toàn diện, thành thật và có tính ứng dụng cao về những gì cần thiết để xây dựng sự nghiệp cloud tại Việt Nam, kết hợp dữ liệu thị trường, thực tế kỹ thuật, phát triển kỹ năng mềm và chiến lược nghề nghiệp.
+> Tổng thể, sự kiện này kết hợp cảm hứng kỹ thuật (Cloud Quest, tư duy DevOps) với phát triển bản thân (tự tin, trì hoãn) và một góc nhìn vui vẻ, đời thường (câu chuyện hackathon, chủ đề tử vi) - đây là một trong những sự kiện toàn diện nhất mình tham gia trong kỳ thực tập.
