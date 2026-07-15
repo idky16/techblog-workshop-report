@@ -9,11 +9,11 @@ pre: " <b> 5. </b> "
 {{% notice info %}}
 ### Access the live demo
 
-The mentor can access the TechBlog website running on AWS at:
+
 
 [http://13.212.52.148:8080](http://13.212.52.148:8080)
 
-The website is served directly by Spring Boot on Amazon EC2 over HTTP port 8080. The current demo does not use a domain or HTTPS and is expected to remain available until July 30, 2026.
+
 {{% /notice %}}
 
 ## Workshop Overview
